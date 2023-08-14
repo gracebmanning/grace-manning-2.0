@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap');
+@font-face{
+    font-family: 'Royal Acidbath Open';
+    src: url('./assets/fonts/Royalacid_open.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+@font-face{
+    font-family: "TiltPenX";
+    src: url("./assets/fonts/TiltPenX.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+@font-face{
+    font-family: "Comic Sans MS";
+    src: url("./assets/fonts/ComicSans/comic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+@font-face{
+    font-family: "Comic Sans MS";
+    src: url("./assets/fonts/ComicSans/comicbd.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+	font-display: swap;
+}
+@font-face{
+    font-family: "Comic Sans MS";
+    src: url("./assets/fonts/ComicSans/comici.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+	font-display: swap;
+}
+
+/* width */
+::-webkit-scrollbar{
+    width: 1em;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: #FFF2D4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: #B3B3F2;
+    border-radius: 20px;
+    border: 3px solid #B3B3F2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #A0A0E7;
+    border: 3px solid #A0A0E7;
+}
+
+:root{
+	--main-text-color: #065C5C;
+	--orange-accent: #E29D00;
+	--pink-accent: #065C5C;
+}
+
+body{
+	font-family: "Comic Sans MS";
+	/*background-image: url(background.gif);
+	background-repeat: repeat;
+	background-color: #c5c5f0;*/
+	background-color: rgba(211, 211, 242, 0.9);
+	color: var(--main-text-color);
+	margin: 0px;
+}
+
+p{
+	margin: 0px;
+}
+
+ul{
+	margin: 0px;
+}
+
+a{
+	color: var(--main-text-color);
+	transition: 0.2s ease-in;
+}
+
+a:hover{
+	color: var(--orange-accent);
+	transition: 0.2s ease-out;
+}
+
+.nomargins{
+	margin: 0px;
+}
