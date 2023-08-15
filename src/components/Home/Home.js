@@ -1,12 +1,12 @@
 import './Home.css';
-import cow from '../../assets/images/cow.png';
+import { orangeCow, frogResult } from '../../assets';
 
 export default function Home() {
   return (
     <div class="mainContent">
       <div class="contentBoxCenter">
           <p id="hiImGrace">Hi, I'm Grace!</p>
-          <img id="cow" src={cow} alt="orange cow"/>
+          <img id="cow" src={orangeCow} alt="orange cow"/>
           <p>(I'm not a cow...I'm a person.)</p>
       </div>
       <div class="contentBoxLeft">
@@ -18,8 +18,7 @@ export default function Home() {
       <div class="contentBoxCenter">
           What kind of frog am I?<br/><br/>
           <a href="http://www.allaboutfrogs.org/funstuff/frogtest.php3" target="_blank" rel="noreferrer">
-              <img src="./assets/images/result12.jpg" width="215" height="100" alt="I'm a Pac Man Frog!"
-                  border="0" />
+              <img src={frogResult} width="215" height="100" alt="I'm a Pac Man Frog!" border="0" />
           </a>
           <br/>Argentinian Horned frogs seem to have been designed for the sole purpose of eating as
           much as possible. They appear to consist of two main parts: a mouth and a stomach. This is

@@ -8,6 +8,11 @@
   max-width: 300px;
 }
 
+#sidebarSection{
+	margin-top: 20px;
+	width: 20%;
+}
+
 #mainSection{
 	display: flex;
 	flex-direction: row;

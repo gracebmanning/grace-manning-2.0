@@ -1,6 +1,5 @@
 import './Navbar.css';
-import cowGif from "../../assets/gifs/cow.gif";
-import rainbowStars from "../../assets/gifs/star_rainbow.gif";
+import { cowGif, rainbowStars } from '../../assets';
 
 export default function Navbar() {
   return (
