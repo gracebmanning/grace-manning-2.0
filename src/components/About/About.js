@@ -4,8 +4,8 @@ import resume from '../../resume.pdf';
 
 export default function About() {
   return (
-    <div class="mainContent">
-      <div class="contentBoxCenter">
+    <div className="mainContent">
+      <div className="contentBoxCenter">
           <p>
               hello! I'm Grace. I just recently graduated with a degree in Computer Science from UC Irvine (June 2023).
               <br/>
@@ -30,34 +30,30 @@ export default function About() {
               good stuff. If you're interested in the nitty-gritty, <b><a href={resume} target="_blank" rel="noreferrer">click here</a> to view my resume.</b>
           </p>
       </div>
-      <div class="twoColumnBox">
-          <div class="contentBoxLeft">
-              <p>
-                  likes:
-              <ul>
-                  <li>cows</li>
-                  <li>photography</li>
-                  <li>snorkeling</li>
-                  <li>hiking</li>
-                  <li>CSS tricks</li>
-                  <li>square-toe platform heels</li>
-                  <li>purchasing jackets at thrift stores</li>
-                  <li>ambient lighting</li>
-                  <li>exclamation points!</li>
-                  <li>ocean facts</li>
-                  <li>funny socks</li>
-              </ul>
-              </p>
-              <br/>
-              <img id="catonpiano-gif" src={catOnPiano} alt="orange cat walking on piano keys" />
+      <div className="twoColumnBox">
+          <div className="contentBoxLeft">
+            likes:
+            <ul>
+                <li>cows</li>
+                <li>photography</li>
+                <li>snorkeling</li>
+                <li>hiking</li>
+                <li>CSS tricks</li>
+                <li>square-toe platform heels</li>
+                <li>purchasing jackets at thrift stores</li>
+                <li>ambient lighting</li>
+                <li>exclamation points!</li>
+                <li>ocean facts</li>
+                <li>funny socks</li>
+            </ul>
+            <br/>
+            <img id="catonpiano-gif" src={catOnPiano} alt="orange cat walking on piano keys" />
           </div>
-          <div class="contentBoxLeft">
-              <p>
-                  dislikes:
-              <ul>
-                  <li>the absence of headphone jacks in modern smartphones</li>
-              </ul>
-              </p>
+          <div className="contentBoxLeft">
+            dislikes:
+            <ul>
+                <li>the absence of headphone jacks in modern smartphones</li>
+            </ul>
           </div>
       </div>
     </div>

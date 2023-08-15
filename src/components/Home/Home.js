@@ -3,19 +3,19 @@ import { orangeCow, frogResult } from '../../assets';
 
 export default function Home() {
   return (
-    <div class="mainContent">
-      <div class="contentBoxCenter">
+    <div className="mainContent">
+      <div className="contentBoxCenter">
           <p id="hiImGrace">Hi, I'm Grace!</p>
           <img id="cow" src={orangeCow} alt="orange cow"/>
           <p>(I'm not a cow...I'm a person.)</p>
       </div>
-      <div class="contentBoxLeft">
+      <div className="contentBoxLeft">
           <p>
               <b>Welcome to my *~*~portal~*~* on the internet.</b>
               I will write more here later!
           </p>
       </div>
-      <div class="contentBoxCenter">
+      <div className="contentBoxCenter">
           What kind of frog am I?<br/><br/>
           <a href="http://www.allaboutfrogs.org/funstuff/frogtest.php3" target="_blank" rel="noreferrer">
               <img src={frogResult} width="215" height="100" alt="I'm a Pac Man Frog!" border="0" />

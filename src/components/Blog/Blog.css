@@ -1,0 +1,33 @@
+.blogTile{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: solid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.blogPreviewImage{
+    width: 200px;
+}
+
+.blogPreviewText{
+	margin-left: 10px;
+}
+
+.blogNavigation {
+	margin: 0px 10px 8px 10px;
+	border: solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	background-color: #FFF2D4;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.blogCaption{
+	font-size: 14px;
+}

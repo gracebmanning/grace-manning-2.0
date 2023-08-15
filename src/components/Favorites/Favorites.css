@@ -1,0 +1,31 @@
+.favoritesContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.albumTile{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 145px;
+}
+
+.albumCover{
+	width: 145px;
+}
+
+.movieTile{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 145px;
+}
+
+.moviePoster{
+	width: 145px;
+}

@@ -13,29 +13,96 @@ import rainbowStars from './gifs/star_rainbow.gif';
 import flyingEnvelope from './gifs/flying_envelope.gif';
 import thumbsUp from './gifs/thumbsup.gif';
 import catOnPiano from './gifs/CATONPIANO.gif';
+import construction from './gifs/construction.gif';
 
 // IMAGES
 import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
+// albums
+import IsThisIt from './images/albums/isthisit.png';
+import RoomOnFire from './images/albums/roomonfire.jpg';
+import FirstImpressionsOfEarth from './images/albums/firstimpressionsofearth.jpg';
+import FuturePresentPast from './images/albums/futurepresentpast.jpg';
+import FetchTheBoltCutters from './images/albums/fetchtheboltcutters.png';
+import MmFood from './images/albums/mmfood.jpg';
+import Second from './images/albums/2nd.png';
+import JankyStar from './images/albums/jankystar.png';
+import PerpetualMotionPeople from './images/albums/perpetualmotionpeople.png';
+import TransangelicExodus from './images/albums/transangelicexodus.png';
+import LCDSoundsystem from './images/albums/lcdsoundsystem.png';
+import SoundOfSilver from './images/albums/soundofsilver.png';
+import SilentAlarm from './images/albums/silentalarm.jpg';
+import Revolver from './images/albums/revolver.jpg';
+import MNWNW from './images/albums/mensneedswomensneedswhatever.jpg';
+// movies
+import LadyBird from './images/movies/ladybird.jpg';
+import Parasite from './images/movies/parasite.jpg';
+import BeauIsAfraid from './images/movies/beauisafraid.jpg';
+import TheShining from './images/movies/theshining.jpg';
+import TheTrumanShow from './images/movies/trumanshow.jpg';
+import Trainspotting from './images/movies/trainspotting.jpg';
+import BlackSwan from './images/movies/blackswan.jpg';
+// blog previews
+import graduated from './blog-images/graduated/diploma1 - cropped.jpg';
+import GHC22 from './blog-images/ghc22/GHC-22-cover.jpg';
+import coronaDelMar from './blog-images/ucidaytrips/coronadelmar.webp';
+import GHC21 from './blog-images/ghc21/2021-09-27.webp';
 
+// 88x31s
 export{
-    // 88x31s
     css,
     adobe,
     enchantedForest,
     gotHTML,
     homer,
     imaginaryLand,
-    spongebobWebsite,
+    spongebobWebsite
+};
 
-    // GIFS
+// GIFS
+export{
     cowGif,
     rainbowStars,
     flyingEnvelope,
     thumbsUp,
     catOnPiano,
+    construction
+};
 
-    // IMAGES
+// IMAGES
+export{
     orangeCow,
-    frogResult
+    frogResult,
+
+    // ALBUMS
+    IsThisIt,
+    RoomOnFire,
+    FirstImpressionsOfEarth,
+    FuturePresentPast,
+    FetchTheBoltCutters,
+    MmFood,
+    Second,
+    JankyStar,
+    PerpetualMotionPeople,
+    TransangelicExodus,
+    LCDSoundsystem,
+    SoundOfSilver,
+    SilentAlarm,
+    Revolver,
+    MNWNW,
+
+    // MOVIES
+    LadyBird,
+    Parasite,
+    BeauIsAfraid,
+    TheShining,
+    TheTrumanShow,
+    Trainspotting,
+    BlackSwan,
+
+    // BLOG IMAGES
+    graduated,
+    GHC22,
+    coronaDelMar,
+    GHC21
 };

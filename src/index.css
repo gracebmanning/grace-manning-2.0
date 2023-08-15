@@ -102,3 +102,35 @@ a:hover{
 	height: 31px;
     padding: 1px;
 }
+
+.mainContent {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.contentBoxCenter {
+	margin: 0px 10px 8px 10px;
+	border: solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	background-color: #FFF2D4;
+	text-align: center;
+}
+
+.contentBoxLeft {
+	margin: 0px 10px 8px 10px;
+	border: solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	background-color: #FFF2D4;
+}
+
+.twoColumnBox{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}

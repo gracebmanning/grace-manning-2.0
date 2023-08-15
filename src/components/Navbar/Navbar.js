@@ -3,57 +3,57 @@ import { cowGif, rainbowStars } from '../../assets';
 
 export default function Navbar() {
   return (
-    <div class="nav">
-      <div class="navheader">
+    <div className="nav">
+      <div className="navheader">
           <img src={cowGif} alt="cow.gif"/>
-          <div class="navheadertext">
+          <div className="navheadertext">
               <h1 id="navtitle">grace-manning.com</h1>
               <h2 id="navsubtitle">...where dreams come true!</h2>
           </div>
       </div>
 
-      <div class="navstars">
+      <div className="navstars">
           <img src={rainbowStars} alt="line of rainbow stars"/>
       </div>
 
-      <div class="navlinks">
+      <div className="navlinks">
           <p><b>personal</b></p>
-          <p class="navlink">★
+          <p className="navlink">★
               <a href="/">home</a>
           </p>
-          <p class="navlink">★
+          <p className="navlink">★
               <a href="/about">about</a>
           </p>
-          <p class="navlink">★
-              <a href="../blog.html">blog</a>
+          <p className="navlink">★
+              <a href="/blog">blog</a>
           </p>
-          <p class="navlink">★
-              <a href="../videos.html">videos</a>
+          <p className="navlink">★
+              <a href="/videos">videos</a>
           </p>
-          <p class="navlink">★
-              <a href="../favorites.html">my favorites</a>
+          <p className="navlink">★
+              <a href="/favorites">my favorites</a>
           </p>
-          <p class="navSeparator">-------------------------------</p>
+          <p className="navSeparator">-------------------------------</p>
           <p><b>software projects</b></p>
-          <p class="navlink">★
-              <a href="../cowculator.html">cowculator</a>
+          <p className="navlink">★
+              <a href="/cowculator">cowculator</a>
           </p>
-          <p class="navlink">★
-              <a href="../undergrad-research.html">research</a>
+          <p className="navlink">★
+              <a href="/undergrad-research">research</a>
           </p>
-          <p class="navSeparator">-------------------------------</p>
+          <p className="navSeparator">-------------------------------</p>
           <p><b>fun stuff</b></p>
-          <p class="navlink">★
-              <a href="../fortune-teller.html">fortune teller</a>
+          <p className="navlink">★
+              <a href="/fortune-teller">fortune teller</a>
           </p>
-          <p class="navSeparator">-------------------------------</p>
+          <p className="navSeparator">-------------------------------</p>
           <p><b>miscellaneous</b></p>
-          <p class="navlink">★
-              <a href="../sources.html">sources</a>
+          <p className="navlink">★
+              <a href="/sources">sources</a>
           </p>
       </div>
 
-      <div class="navstars">
+      <div className="navstars">
           <img src={rainbowStars} alt="line of rainbow stars"/>
       </div>
     </div>
