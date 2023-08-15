@@ -28,7 +28,7 @@ export default function Sidebar() {
       <br/>
       <p className="navSeparator">-------------------------------</p>
 
-      <h3 className="nomargins">little guys</h3>
+      <h3 className="nomargins">my 88x31 collection</h3>
       <br/>
       <img className="littleGuys" src={css} alt="88x31 made with cascading style sheets" />
       <img className="littleGuys" src={adobe} alt="88x31 get Adobe Flash Player" />
