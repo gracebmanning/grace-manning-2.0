@@ -11,6 +11,8 @@ import spongebobWebsite from './88x31/thespongebobwebsite.gif';
 import cowGif from './gifs/cow.gif';
 import rainbowStars from './gifs/star_rainbow.gif';
 import flyingEnvelope from './gifs/flying_envelope.gif';
+import thumbsUp from './gifs/thumbsup.gif';
+import catOnPiano from './gifs/CATONPIANO.gif';
 
 // IMAGES
 import orangeCow from './images/cow.png';
@@ -30,6 +32,8 @@ export{
     cowGif,
     rainbowStars,
     flyingEnvelope,
+    thumbsUp,
+    catOnPiano,
 
     // IMAGES
     orangeCow,

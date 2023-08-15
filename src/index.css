@@ -96,3 +96,9 @@ a:hover{
 .nomargins{
 	margin: 0px;
 }
+
+.littleGuys{
+	width: 88px;
+	height: 31px;
+    padding: 1px;
+}
