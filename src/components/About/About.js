@@ -1,6 +1,6 @@
 import './About.css';
 import { thumbsUp, catOnPiano } from '../../assets';
-import resume from '../../resume.pdf';
+import resume from '../../documents/resume.pdf';
 
 export default function About() {
   return (

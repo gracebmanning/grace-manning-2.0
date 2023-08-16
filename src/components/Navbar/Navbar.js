@@ -49,7 +49,7 @@ export default function Navbar() {
           <p className="navSeparator">-------------------------------</p>
           <p><b>miscellaneous</b></p>
           <p className="navlink">★
-              <a href="/sources">sources</a>
+              <a href="/asset-sources">asset sources</a>
           </p>
       </div>
 

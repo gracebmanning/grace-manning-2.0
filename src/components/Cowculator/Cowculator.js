@@ -8,7 +8,7 @@ export default function Cowculator() {
           <p>
               A cow-themed calculator, available on iOS and Android!
               <br/>
-              <b>Projected release date: June 2023</b>
+              <b>Projected release date: August 2023</b>
           </p>
           <br/>
           <p>Cowculator page is under construction!</p>

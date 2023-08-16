@@ -14,10 +14,14 @@ import flyingEnvelope from './gifs/flying_envelope.gif';
 import thumbsUp from './gifs/thumbsup.gif';
 import catOnPiano from './gifs/CATONPIANO.gif';
 import construction from './gifs/construction.gif';
+import butterfly from './gifs/bigButterfly.gif';
+import typewriter from './gifs/typewriter.gif';
+import computer from './gifs/computer.gif';
 
 // IMAGES
 import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
+import researchPoster from './images/UROPResearchPoster.svg';
 // albums
 import IsThisIt from './images/albums/isthisit.png';
 import RoomOnFire from './images/albums/roomonfire.jpg';
@@ -66,13 +70,17 @@ export{
     flyingEnvelope,
     thumbsUp,
     catOnPiano,
-    construction
+    construction,
+    butterfly,
+    typewriter,
+    computer
 };
 
 // IMAGES
 export{
     orangeCow,
     frogResult,
+    researchPoster,
 
     // ALBUMS
     IsThisIt,
