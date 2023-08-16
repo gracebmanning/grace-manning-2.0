@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.380195f4.css",
-    "main.js": "/static/js/main.48d8d7d3.js",
+    "main.css": "/static/css/main.4d4c28bc.css",
+    "main.js": "/static/js/main.a2893bf8.js",
     "static/media/jankystar.png": "/static/media/jankystar.6f6c76496095cb60d5f9.png",
     "static/media/UROPResearchPoster.svg": "/static/media/UROPResearchPoster.e25b5370dcdd75d1fe48c5d05b3ab6dd.svg",
     "static/media/trainspotting.jpg": "/static/media/trainspotting.287d5eec6ac39f2fc6fb.jpg",
@@ -47,11 +47,11 @@
     "static/media/silentalarm.jpg": "/static/media/silentalarm.ece52c23f8b51fa9cc1e.jpg",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.380195f4.css.map": "/static/css/main.380195f4.css.map",
-    "main.48d8d7d3.js.map": "/static/js/main.48d8d7d3.js.map"
+    "main.4d4c28bc.css.map": "/static/css/main.4d4c28bc.css.map",
+    "main.a2893bf8.js.map": "/static/js/main.a2893bf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.380195f4.css",
-    "static/js/main.48d8d7d3.js"
+    "static/css/main.4d4c28bc.css",
+    "static/js/main.a2893bf8.js"
   ]
 }
