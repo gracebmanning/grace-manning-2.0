@@ -23,7 +23,7 @@ export default function About() {
               <br/>
               I am passionate about front-end development, human-centered design, and creating technology that
               impacts people positively (and isn't boring!). Industries of interest include art, music,
-              fashion, marketing/branding, and design. Also interested in relocating!
+              fashion, marketing/branding, design, and urban planning. Also interested in relocating to NYC!
               <br/><br/>
               While making websites is my favorite thing to do, I also have experience working with lots of
               different coding languages, algorithms, data structures, databases, design tools, and all that
@@ -45,6 +45,7 @@ export default function About() {
                 <li>exclamation points!</li>
                 <li>ocean facts</li>
                 <li>funny socks</li>
+                <li>public transportation</li>
             </ul>
             <br/>
             <img id="catonpiano-gif" src={catOnPiano} alt="orange cat walking on piano keys" />

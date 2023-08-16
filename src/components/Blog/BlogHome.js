@@ -1,7 +1,7 @@
 import './Blog.css';
 import { graduated, GHC22, coronaDelMar, GHC21 } from '../../assets';
 
-function BlogPreviewTile({previewImage, altText, blogTitle, blogDate, previewText}){
+export function BlogPreviewTile({previewImage, altText, blogTitle, blogDate, previewText}){
     return(
     <div className="blogTile">
         <img className="blogPreviewImage" src={previewImage}

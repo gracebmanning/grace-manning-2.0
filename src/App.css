@@ -16,7 +16,7 @@
 #mainSection{
 	display: flex;
 	flex-direction: row;
-	width: 78%;
+	width: 80%;
 	min-height: 100vh;
 	margin: 0px;
 	background: url('./assets/images/rollinghills.jpg');

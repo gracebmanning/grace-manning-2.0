@@ -23,7 +23,7 @@ export default function Sidebar() {
 
       <br/>
       <h3 className="nomargins">last updated</h3>
-      <p id="lastModified"></p>
+      <p id="lastModified">~nobody knows!~</p>
 
       <br/>
       <p className="navSeparator">-------------------------------</p>
