@@ -13,11 +13,11 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	line-height: 1px;
+	line-height: 1;
 }
 
 #navtitle{
-	font-size: 24px;
+	font-size: 22px;
 }
 
 #navsubtitle{
@@ -58,4 +58,33 @@
 .navSeparator{
 	overflow: hidden;
 	white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+	.navheader{
+		flex-direction: column;
+		width: 75%;
+	}
+
+
+	#navtitle{
+		font-size: 20px;
+	}
+	
+	#navsubtitle{
+		font-size: 14px;
+	}
+
+	.nav-links{
+		font-size: 18px;
+		margin-left: 5px;
+	}
+
+	.navstars{
+		max-width: 70%;
+	}
+
+	.navSeparator{
+		width: 80%;
+	}
 }

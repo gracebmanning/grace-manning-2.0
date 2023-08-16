@@ -21,3 +21,9 @@
 	margin: 0px;
 	background: url('./assets/images/rollinghills.jpg');
 }
+
+@media only screen and (max-width: 800px) {
+	#navbarSection{
+		max-width: 200px;
+	}
+}
