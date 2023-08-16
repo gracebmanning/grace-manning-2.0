@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="nav">
       <div className="navheader">
-          <img src={cowGif} alt="cow.gif"/>
+          <img src={cowGif} alt="black and white cow turning its head"/>
           <div className="navheadertext">
               <h1 id="navtitle">grace-manning.com</h1>
               <h2 id="navsubtitle">...where dreams come true!</h2>

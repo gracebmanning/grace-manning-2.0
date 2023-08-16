@@ -1,7 +1,15 @@
-#butterflyGif{
-    width: 35%;
+.sourceLink{
+    text-decoration: none;
 }
 
-#warningText{
-    font-size: 24px;
+.gifAsset{
+	height: 75px;
+}
+
+#rollingHills{
+    height:200px;
+}
+
+#pinkPanther{
+	height: 190px;
 }

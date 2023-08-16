@@ -15,8 +15,6 @@ import thumbsUp from './gifs/thumbsup.gif';
 import catOnPiano from './gifs/CATONPIANO.gif';
 import construction from './gifs/construction.gif';
 import butterfly from './gifs/bigButterfly.gif';
-import typewriter from './gifs/typewriter.gif';
-import computer from './gifs/computer.gif';
 import pinkPanther from './gifs/pinkpanther.gif';
 
 // IMAGES
@@ -24,6 +22,7 @@ import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
 import researchPoster from './images/UROPResearchPoster.svg';
 import orangeTape from './images/tape.png';
+import rollingHills from './images/rollinghills.jpg';
 
 // albums
 import IsThisIt from './images/albums/isthisit.png';
@@ -75,8 +74,6 @@ export{
     catOnPiano,
     construction,
     butterfly,
-    typewriter,
-    computer,
     pinkPanther
 };
 
@@ -86,6 +83,7 @@ export{
     frogResult,
     researchPoster,
     orangeTape,
+    rollingHills,
 
     // ALBUMS
     IsThisIt,
