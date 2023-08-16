@@ -17,11 +17,14 @@ import construction from './gifs/construction.gif';
 import butterfly from './gifs/bigButterfly.gif';
 import typewriter from './gifs/typewriter.gif';
 import computer from './gifs/computer.gif';
+import pinkPanther from './gifs/pinkpanther.gif';
 
 // IMAGES
 import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
 import researchPoster from './images/UROPResearchPoster.svg';
+import orangeTape from './images/tape.png';
+
 // albums
 import IsThisIt from './images/albums/isthisit.png';
 import RoomOnFire from './images/albums/roomonfire.jpg';
@@ -73,7 +76,8 @@ export{
     construction,
     butterfly,
     typewriter,
-    computer
+    computer,
+    pinkPanther
 };
 
 // IMAGES
@@ -81,6 +85,7 @@ export{
     orangeCow,
     frogResult,
     researchPoster,
+    orangeTape,
 
     // ALBUMS
     IsThisIt,

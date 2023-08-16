@@ -1,0 +1,61 @@
+.fortunes-title-container{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fortunes-title{
+    position: absolute;
+    font-family: "TiltPenX";
+    font-size:70px;
+	color: black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.get-fortune-button{
+    background-color: #065C5C;
+    color: white;
+    font-family: 'Asul', sans-serif;
+    font-size: 22px;
+    width: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+}
+
+#your-fortune-is{
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+#fortune-text{
+    padding: 15px;
+    min-width: 70%;
+    min-height: 20vh;
+    
+	font-size: 25px;
+	font-family: 'Asul', sans-serif;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#orange-tape{
+    width: 80%;
+    height: 150px;
+}
+
+#pinkPanther{
+	height: 190px;
+}
