@@ -1,6 +1,13 @@
 import './Sidebar.css';
 import { flyingEnvelope, css, adobe, enchantedForest, gotHTML, homer, imaginaryLand, spongebobWebsite } from '../../assets';
 
+function lastModified(){
+  var date = new Date(document.lastModified);
+  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var dateString = months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear();
+  return dateString;
+}
+
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -23,7 +30,7 @@ export default function Sidebar() {
 
       <br/>
       <h3 className="sidebarHeader">last updated</h3>
-      <p id="lastModified">~nobody knows!~</p>
+      <p id="lastModified">{lastModified()}</p>
 
       <br/>
       <p className="navSeparator">-------------------------------</p>
