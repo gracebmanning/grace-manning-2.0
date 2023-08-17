@@ -20,7 +20,7 @@ import pinkPanther from './gifs/pinkpanther.gif';
 // IMAGES
 import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
-import researchPoster from './images/UROPResearchPoster.svg';
+import researchPoster from './images/UROP-Research-Poster.png';
 import orangeTape from './images/tape.png';
 import rollingHills from './images/rollinghills.jpg';
 
