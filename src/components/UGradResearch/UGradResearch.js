@@ -11,7 +11,7 @@ export default function UGradResearch(){
             <div className="contentBoxCenter">
                 <h3 className="nomargins">Undergraduate Research</h3>
                 <h3 className="nomargins">September 2022 - June 2023</h3>
-                <h1 className="nomargins">
+                <h1 className="nomargins" id="researchTitle">
                     Quantitative Analysis of Fast Fashion and Slow Fashion Website Design Elements Using a Web
                     Crawler
                 </h1>

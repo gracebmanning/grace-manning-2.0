@@ -29,3 +29,19 @@
 .moviePoster{
 	width: 145px;
 }
+
+@media screen and (max-width: 768px) {
+	.albumTile{
+		width: 120px;
+	}
+	.albumCover{
+		width: 120px;
+	}
+
+	.movieTile{
+		width: 120px;
+	}
+	.moviePoster{
+		width: 120px;
+	}
+}

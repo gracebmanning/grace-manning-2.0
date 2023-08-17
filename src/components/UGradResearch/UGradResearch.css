@@ -6,6 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
 }
 
 .researchQuickLinks{
@@ -17,4 +20,15 @@
 .researchLinkIcon{
     margin: 0px;
     font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #researchTitle{
+        font-size: 24px;
+        line-height: 1.1;
+    }
+
+    #research-poster{
+        width: 100%;
+    }
 }

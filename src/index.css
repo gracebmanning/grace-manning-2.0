@@ -147,6 +147,10 @@ a:hover{
 		margin: 0px 2px 8px 2px;
 	}
 
+	.twoColumnBox{
+		grid-template-columns: 1fr;
+	}
+
 	.littleGuys{
 		transform: scale(0.80);
 	}

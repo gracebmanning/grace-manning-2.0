@@ -15,7 +15,7 @@ export default function Sidebar() {
       <h3 className="sidebarHeader">contact</h3>
       <a href="mailto:gracebmanning@gmail.com">email</a>
       <br/>
-      <img src={flyingEnvelope} alt="white envelope with yellow wings" />
+      <img src={flyingEnvelope} alt="white envelope with yellow wings" id="envelopeGif" />
 
       <br/>
       <h3 className="sidebarHeader">established</h3>
