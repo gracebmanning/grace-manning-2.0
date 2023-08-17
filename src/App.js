@@ -20,30 +20,23 @@ import { Routes, Route } from 'react-router-dom';
 export default function App() {
   return (
     <div id="container">
-        <div id="navbarSection">
-            <Navbar />
-        </div>
-        <div id="mainSection">
-            <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='about' element={<About/>} />
-                <Route path='blog/*' element={<Blog/>} />
-                <Route path='blog/graduated' element={<Graduated/>} />
-                <Route path='blog/GHC2022' element={<GHC2022/>} />
-                <Route path='videos' element={<Videos/>} />
-                <Route path='favorites' element={<Favorites/>} />
-                <Route path='cowculator' element={<Cowculator/>} />
-                <Route path='cowculator/privacy' element={<PrivacyPolicy/>} />
-                <Route path='undergrad-research' element={<UGradResearch/>} />
-                <Route path='fortune-teller' element={<FortuneTeller/>} />
-                <Route path='asset-sources' element={<AssetSources/>} />
-
-                <Route path='*' element={<PageDoesNotExist/>} />
-            </Routes>
-            <div id="sidebarSection">
-              <Sidebar />
-            </div>
-        </div>
+        <Navbar />
+        <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='about' element={<About/>} />
+            <Route path='blog/*' element={<Blog/>} />
+            <Route path='blog/graduated' element={<Graduated/>} />
+            <Route path='blog/GHC2022' element={<GHC2022/>} />
+            <Route path='videos' element={<Videos/>} />
+            <Route path='favorites' element={<Favorites/>} />
+            <Route path='cowculator' element={<Cowculator/>} />
+            <Route path='cowculator/privacy' element={<PrivacyPolicy/>} />
+            <Route path='undergrad-research' element={<UGradResearch/>} />
+            <Route path='fortune-teller' element={<FortuneTeller/>} />
+            <Route path='asset-sources' element={<AssetSources/>} />
+            <Route path='*' element={<PageDoesNotExist/>} />
+        </Routes>
+        <Sidebar />
     </div>
   );
 }

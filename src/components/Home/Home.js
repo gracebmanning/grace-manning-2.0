@@ -13,30 +13,28 @@ export default function Home() {
       <div className="contentBoxLeft">
         <h3><b>welcome to my *~*~portal~*~* on the internet.</b></h3>
         <br/>
+        <h4>About Me</h4>
         <p>
-          <h4>About Me</h4>
           I am passionate about front-end development, human-centered design, and creating technology that
           impacts people positively (and isn't boring!). Read more <a href='about'>HERE</a>!
         </p>
         <br/>
-        <p>
-          <h4>Latest Blog Post</h4>
-          <BlogPreviewTile 
-            previewImage={graduated}
-            altText={"Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'"}
-            blogTitle={"I Graduated!"}
-            blogDate={"June 20, 2023"}
-            previewText={
-                <p>
-                    Here's a quick update: <b>I graduated with a degree in Computer Science from UC
-                    Irvine!</b> I am incredibly grateful for the four years spent here, and the amazing
-                    organizations I was involved with. Of course, shoutout to WICS (Women in Information &
-                    Computer Sciences), which brought me opportunities...<a href="blog/graduated">READ MORE</a>
-                </p>}/>
-        </p>
+        <h4>Latest Blog Post</h4>
+        <BlogPreviewTile 
+          previewImage={graduated}
+          altText={"Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'"}
+          blogTitle={"I Graduated!"}
+          blogDate={"June 20, 2023"}
+          previewText={
+              <p>
+                  Here's a quick update: <b>I graduated with a degree in Computer Science from UC
+                  Irvine!</b> I am incredibly grateful for the four years spent here, and the amazing
+                  organizations I was involved with. Of course, shoutout to WICS (Women in Information &
+                  Computer Sciences), which brought me opportunities...<a href="blog/graduated">READ MORE</a>
+              </p>}/>
         <br/>
+        <h4>Looking For Answers?</h4>
         <p>
-          <h4>Looking For Answers?</h4>
           Check out my <a href="fortune-teller">Fortune Teller</a> that I created in the midst of a 5-hour caffeine-fueled coding session, during which I didn't blink a single time! If that doesn't make me qualified to read into the future, I don't know what does.
         </p>
       </div>

@@ -62,7 +62,7 @@
 :root{
 	--main-text-color: #065C5C;
 	--orange-accent: #E29D00;
-	--pink-accent: #065C5C;
+	--lavender-background: rgb(211, 211, 242);
 }
 
 body{
@@ -70,7 +70,7 @@ body{
 	/*background-image: url(background.gif);
 	background-repeat: repeat;
 	background-color: #c5c5f0;*/
-	background-color: rgba(211, 211, 242, 0.9);
+	background: url('./assets/images/rollinghills.jpg');
 	color: var(--main-text-color);
 	margin: 0px;
 }
@@ -93,18 +93,9 @@ a:hover{
 	transition: 0.2s ease-out;
 }
 
-.nomargins{
-	margin: 0px;
-}
-
-.littleGuys{
-	width: 88px;
-	height: 31px;
-    padding: 1px;
-}
-
 .mainContent {
 	width: 80%;
+	min-height: 100vh;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -133,4 +124,21 @@ a:hover{
 .twoColumnBox{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+}
+
+.nomargins{
+	margin: 0px;
+}
+
+.littleGuys{
+	width: 88px;
+	height: 31px;
+    padding: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+	.mainContent {
+		width: 80%;
+		margin-left: 2px;
+	}
 }

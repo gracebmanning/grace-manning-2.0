@@ -1,29 +1,5 @@
 #container {
-	margin: auto;
+	margin: 0px;
 	display: flex;
 	justify-content: center;
-}
-
-#navbarSection{
-  max-width: 300px;
-}
-
-#sidebarSection{
-	margin-top: 20px;
-	width: 20%;
-}
-
-#mainSection{
-	display: flex;
-	flex-direction: row;
-	width: 80%;
-	min-height: 100vh;
-	margin: 0px;
-	background: url('./assets/images/rollinghills.jpg');
-}
-
-@media only screen and (max-width: 800px) {
-	#navbarSection{
-		max-width: 200px;
-	}
 }
