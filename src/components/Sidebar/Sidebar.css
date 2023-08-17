@@ -2,14 +2,39 @@
 	margin-top: 20px;
 	margin-right: 10px;
 	width: 20%;
+	height: 100%;
 
 	padding: 10px;
 	border-style: solid;
 	background-color: #FFF2D4;
 }
 
+.sidebarHeader{
+	margin: 0px;
+}
+
+.collection{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
 @media screen and (max-width: 768px) {
 	.sidebar{
-		margin-right: 2px;
+		width: 18%;
+		margin-top: 45px;
+		margin-right: 1px;
+		padding: 2px;
+	}
+
+	.sidebarHeader{
+		font-size: 14px;
+	}
+
+	.collection{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 }

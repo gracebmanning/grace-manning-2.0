@@ -1,4 +1,5 @@
 import './Home.css';
+import '../../index.css';
 import { orangeCow, frogResult, graduated } from '../../assets';
 import { BlogPreviewTile } from '../Blog/BlogHome';
 

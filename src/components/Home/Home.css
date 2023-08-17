@@ -1,29 +1,3 @@
-.contentBoxCenter {
-	margin: 0px 10px 8px 10px;
-	border: solid;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 16px;
-	background-color: #FFF2D4;
-	text-align: center;
-}
-
-.contentBoxLeft {
-	margin: 0px 10px 8px 10px;
-	border: solid;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 16px;
-	background-color: #FFF2D4;
-}
-
-.twoColumnBox{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
 #hiImGrace{
 	font-family: "Royal Acidbath Open";
     color: #E29D00;
@@ -33,5 +7,16 @@
 }
 
 #cow{
-	height: 200px;
+	width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+	#hiImGrace{
+		font-size: 60px;
+	}
+
+	#cow{
+		width: 90%;
+	}
+
 }

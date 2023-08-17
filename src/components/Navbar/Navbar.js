@@ -16,7 +16,6 @@ function NavSeparator(){
     return(<p className="navSeparator">-------------------------------</p>);
 }
 
-
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (

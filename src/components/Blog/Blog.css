@@ -32,3 +32,10 @@
 .blogCaption{
 	font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+	.blogTile{
+		flex-direction: column;
+		align-items: baseline;
+	}
+}

@@ -93,6 +93,7 @@ a:hover{
 	transition: 0.2s ease-out;
 }
 
+/* margin: top right bottom left */
 .mainContent {
 	width: 80%;
 	min-height: 100vh;
@@ -102,22 +103,16 @@ a:hover{
 
 .contentBoxCenter {
 	margin: 0px 10px 8px 10px;
+	padding: 10px 10px 16px 10px;
 	border: solid;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 16px;
 	background-color: #FFF2D4;
 	text-align: center;
 }
 
 .contentBoxLeft {
 	margin: 0px 10px 8px 10px;
+	padding: 10px 10px 16px 10px;
 	border: solid;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 16px;
 	background-color: #FFF2D4;
 }
 
@@ -134,11 +129,25 @@ a:hover{
 	width: 88px;
 	height: 31px;
     padding: 1px;
+	margin: 0px;
 }
 
 @media only screen and (max-width: 768px) {
 	.mainContent {
 		width: 80%;
-		margin-left: 2px;
+		margin-left: 1px;
+		margin-top: 45px;
+	}
+
+	.contentBoxCenter{
+		margin: 0px 2px 8px 2px;
+	}
+
+	.contentBoxLeft{
+		margin: 0px 2px 8px 2px;
+	}
+
+	.littleGuys{
+		transform: scale(0.80);
 	}
 }
