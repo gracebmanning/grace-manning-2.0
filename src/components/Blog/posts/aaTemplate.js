@@ -4,7 +4,7 @@ export default function Template() {
   return (
     <div className="mainContent">
         <div className="blogNavigation">
-            <a href="GHC2022">← prev</a>
+            <a href="blog">← prev</a>
             <h4 className="nomargins">BLOG POSTS</h4>
             <a href="blog">next →</a>
         </div>

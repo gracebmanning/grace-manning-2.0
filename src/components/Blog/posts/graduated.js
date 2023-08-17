@@ -7,7 +7,7 @@ export default function Graduated() {
         <div className="blogNavigation">
             <a href="GHC2022">← prev</a>
             <h4 className="nomargins">BLOG POSTS</h4>
-            <a href="blog">next →</a>
+            <p>next →</p>
         </div>
         <div className="contentBoxLeft">
             <h2 className="nomargins">I Graduated!</h2>
@@ -25,8 +25,8 @@ export default function Graduated() {
             </p>
             <br/>
             <div>
-                <img style={{width: `30%`, margin: `2px`}} src={diploma1} alt="Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'" />
-                <img style={{width: `30%`, margin: `2px`}} src={diploma2} alt="Grace wearing a grad cap and gown, smiling and holding a diploma holder with a post-it note inside that says 'diploma.'" />
+                <img className="blogImage" style={{width: `30%`}} src={diploma1} alt="Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'" />
+                <img className="blogImage" style={{width: `30%`}} src={diploma2} alt="Grace wearing a grad cap and gown, smiling and holding a diploma holder with a post-it note inside that says 'diploma.'" />
             </div>
         </div>
     </div>

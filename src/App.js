@@ -5,8 +5,6 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
-import Graduated from './components/Blog/posts/graduated';
-import GHC2022 from './components/Blog/posts/GHC2022';
 import Videos from './components/Videos/Videos';
 import Favorites from './components/Favorites/Favorites';
 import Cowculator from './components/Cowculator/Cowculator';
@@ -14,8 +12,13 @@ import PrivacyPolicy from './components/Cowculator/PrivacyPolicy';
 import UGradResearch from './components/UGradResearch/UGradResearch';
 import FortuneTeller from './components/FortuneTeller/FortuneTeller';
 import AssetSources from './components/AssetSources/AssetSources';
-
 import { Routes, Route } from 'react-router-dom';
+
+// blog
+import Graduated from './components/Blog/posts/graduated';
+import GHC2022 from './components/Blog/posts/GHC2022';
+import UCIdaytrips from './components/Blog/posts/UCIdaytrips';
+import GHC2021 from './components/Blog/posts/vGHC2021';
 
 export default function App() {
   return (
@@ -27,6 +30,8 @@ export default function App() {
             <Route path='blog/*' element={<Blog/>} />
             <Route path='blog/graduated' element={<Graduated/>} />
             <Route path='blog/GHC2022' element={<GHC2022/>} />
+            <Route path='blog/UCIdaytrips' element={<UCIdaytrips/>} />
+            <Route path='blog/vGHC2021' element={<GHC2021/>} />
             <Route path='videos' element={<Videos/>} />
             <Route path='favorites' element={<Favorites/>} />
             <Route path='cowculator' element={<Cowculator/>} />

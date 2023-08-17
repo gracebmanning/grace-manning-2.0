@@ -15,7 +15,7 @@ export default function GHC2022() {
   return (
     <div className="mainContent">
         <div className="blogNavigation">
-            <a href="blog">← prev</a>
+            <a href="UCIdaytrips">← prev</a>
             <h4 className="nomargins">BLOG POSTS</h4>
             <a href="graduated">next →</a>
         </div>
