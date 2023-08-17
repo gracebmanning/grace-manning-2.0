@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.98b0a7d9.css",
-    "main.js": "/static/js/main.b44e0d4a.js",
+    "main.js": "/static/js/main.7fa10c03.js",
     "static/media/jankystar.png": "/static/media/jankystar.6f6c76496095cb60d5f9.png",
-    "static/media/UROPResearchPoster.svg": "/static/media/UROPResearchPoster.e25b5370dcdd75d1fe48c5d05b3ab6dd.svg",
     "static/media/trainspotting.jpg": "/static/media/trainspotting.287d5eec6ac39f2fc6fb.jpg",
     "static/media/isthisit.png": "/static/media/isthisit.ab4f1c4fac9da602ba19.png",
     "static/media/2nd.png": "/static/media/2nd.beaed79547561e545bb7.png",
+    "static/media/UROP-Research-Poster.png": "/static/media/UROP-Research-Poster.baae8573ab40df8761c8.png",
     "static/media/perpetualmotionpeople.png": "/static/media/perpetualmotionpeople.bdad1af2ed5eb0cd91ac.png",
     "static/media/blackswan.jpg": "/static/media/blackswan.ca38146de2bf98f07fb0.jpg",
     "static/media/research-paper.pdf": "/static/media/research-paper.6ee15e7b13ef36b42f40.pdf",
@@ -48,10 +48,10 @@
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
     "main.98b0a7d9.css.map": "/static/css/main.98b0a7d9.css.map",
-    "main.b44e0d4a.js.map": "/static/js/main.b44e0d4a.js.map"
+    "main.7fa10c03.js.map": "/static/js/main.7fa10c03.js.map"
   },
   "entrypoints": [
     "static/css/main.98b0a7d9.css",
-    "static/js/main.b44e0d4a.js"
+    "static/js/main.7fa10c03.js"
   ]
 }
