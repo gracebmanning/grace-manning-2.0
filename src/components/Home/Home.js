@@ -1,6 +1,7 @@
 import './Home.css';
 import '../../index.css';
-import { orangeCow, frogResult, graduated } from '../../assets';
+import { orangeCow, frogResult } from '../../assets';
+import { graduated } from '../../assets/blog-images/blogCoverImages';
 import { BlogPreviewTile } from '../Blog/BlogHome';
 
 export default function Home() {

@@ -33,6 +33,10 @@
 	font-size: 14px;
 }
 
+.blogImage{
+	margin: 2px;
+}
+
 @media screen and (max-width: 768px) {
 	.blogTile{
 		flex-direction: column;

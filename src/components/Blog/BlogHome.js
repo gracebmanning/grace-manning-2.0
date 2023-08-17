@@ -1,5 +1,5 @@
 import './Blog.css';
-import { graduated, GHC22, coronaDelMar, GHC21 } from '../../assets';
+import { graduated, ghc22Cover, dayTripsCover, ghc21Cover } from '../../assets/blog-images/blogCoverImages';
 
 export function BlogPreviewTile({previewImage, altText, blogTitle, blogDate, previewText}){
     return(
@@ -33,7 +33,7 @@ export default function BlogHome(){
                         Computer Sciences), which brought me opportunities...<a href="blog/graduated">READ MORE</a>
                     </p>}/>
             <BlogPreviewTile 
-                previewImage={GHC22}
+                previewImage={ghc22Cover}
                 altText={"Grace pointing to a sign that reads 'Thank you for attending GHC today!'."}
                 blogTitle={"My GHC 22 Experience"}
                 blogDate={"September 30, 2022"}
@@ -45,7 +45,7 @@ export default function BlogHome(){
                         WICS members, and here's how it went…<a href="blog/GHC2022">READ MORE</a>
                     </p>}/>
             <BlogPreviewTile 
-                previewImage={coronaDelMar}
+                previewImage={dayTripsCover}
                 altText={"the Corona Del Mar beach; sand and water in the foreground; a hill with houses in the background."}
                 blogTitle={"My Favorite Day Trips from UCI"}
                 blogDate={"March 3, 2022"}
@@ -56,7 +56,7 @@ export default function BlogHome(){
                         <a href="blog/UCIdaytrips">READ MORE</a>
                     </p>}/>
             <BlogPreviewTile
-                previewImage={GHC21}
+                previewImage={ghc21Cover}
                 altText={"a red coffee mug sitting next to Grace's laptop; the laptop displays a web presentation about accessibility."}
                 blogTitle={"My vGHC 2021 Experience"}
                 blogDate={"October 8, 2021"}

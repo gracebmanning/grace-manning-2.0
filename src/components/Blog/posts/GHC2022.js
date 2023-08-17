@@ -1,6 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
-// TODO: fix image imports
 import '../Blog.css';
+import {
+    friday1, friday2, friday3, friday4, friday5,
+    thursday1, thursday2, thursday3, thursday4, thursday5, thursday6, thursday7,
+    thursday8, thursday9, thursday10, thursday11, thursday12, thursday13, thursday14,
+    thursday15, thursday16, thursday17, nikePhoto,
+    wednesday1,wednesday2,wednesday3,wednesday4,wednesday5,wednesday6,wednesday7,wednesday8,
+    wednesday9,wednesday10,wednesday11,wednesday12,wednesday13,wednesday14,wednesday15,
+    wednesday16,wednesday17, wednesday18,wednesday19,
+    tuesday1, tuesday2, tuesday3, tuesday4, tuesday5, tuesday6, tuesday7, tuesday8
+} from '../../../assets/blog-images/ghc22';
 
 export default function GHC2022() {
   return (
@@ -37,8 +46,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '45%'}} src="./blog-images/ghc22/tuesday/(1) 2022-09-20_airportshuttle.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/tuesday/(2) 2022-09-20_airport.jpg" />
+              <img className="blogImage" style={{width: '45%'}} src={tuesday1} />
+              <img className="blogImage" style={{width: '40%'}} src={tuesday2} />
           </div>
           <p class="blogCaption">getting picked up; waiting for our plane to board</p>
           <br/>
@@ -47,8 +56,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/tuesday/(3) 2022-09-20_plane.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/tuesday/(4) 2022-09-20_planefood.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={tuesday3} />
+              <img className="blogImage" style={{width: '40%'}} src={tuesday4} />
           </div>
           <br/>
           <p>
@@ -61,9 +70,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/tuesday/(5) 2022-09-20_searchforsubway.jpg" />
-              <img style={{width: '40%'}}
-                  src="./blog-images/ghc22/tuesday/(6) 2022-09-20_sandwiches_notsubway.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={tuesday5} />
+              <img className="blogImage" style={{width: '40%'}} src={tuesday6} />
           </div>
           <p class="blogCaption">the search in action...and the defeat</p>
           <br/>
@@ -74,8 +82,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '50%'}} src="./blog-images/ghc22/tuesday/(7) 2022-09-20_plane_emails.jpg" />
-              <img style={{width: '50%'}} src="./blog-images/ghc22/tuesday/(8) 2022-09-20_sunset.jpg" />
+              <img className="blogImage" style={{width: '50%'}} src={tuesday7} />
+              <img className="blogImage" style={{width: '50%'}} src={tuesday8} />
           </div>
           <p class="blogCaption">reading emails; Orlando sunset.</p>
           <br/>
@@ -98,24 +106,22 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '30%'}}
-                  src="./blog-images/ghc22/wednesday/(1) 2022-09-21_morning_exhaustion.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/wednesday/(2) 2022-09-21_skybridge.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/wednesday/(3) 2022-09-21_green.jpg" />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday1} />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday2} />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday3} />
           </div>
           <p class="blogCaption">sleep-deprived people; skybridge in the morning; very green plants!</p>
           <br/>
           <p>
-              We checked in and got our GHC badges a bit too early…it was 8am and things typically didn’t
+              We checked in and got our GHC badges a bit too early…it was 8am and things typically didn't
               start until 9am. In this spare time, we explored the convention center and all it had to offer.
               The conference spanned across the length of the convention center, which was full of natural
               light! We also took a peek at the food court while it was still empty.
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}}
-                  src="./blog-images/ghc22/wednesday/(4) 2022-09-21_conference_center.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/wednesday/(5) 2022-09-21_foodcourt.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday4} />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday5} />
           </div>
           <p class="blogCaption">convention center; thumbs up for the Food Court!</p>
           <br/>
@@ -126,7 +132,7 @@ export default function GHC2022() {
               people trying to make connections that may lead to a job someday. I was one of those people!
           </p>
           <br/>
-          <img style={{width: '70%'}} src="./blog-images/ghc22/wednesday/(6) 2022-09-21_expohall.jpg" />
+          <img className="blogImage" style={{width: '70%'}} src={wednesday6} />
           <p class="blogCaption">the Expo Hall</p>
           <br/>
           <p>
@@ -148,8 +154,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/wednesday/(7) 2022-09-21_mcdonalds.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/wednesday/(8) 2022-09-21_nordstrom.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday7} />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday8} />
           </div>
           <p class="blogCaption">McDonald's and Nordstrom booths</p>
           <br/>
@@ -160,11 +166,11 @@ export default function GHC2022() {
               It's very hard not to feel motivated while watching something like this.
           </p>
           <br/>
-          <img style={{width: '70%'}} src="./blog-images/ghc22/wednesday/(9) 2022-09-21_openingkeynote.jpg" />
+          <img className="blogImage" style={{width: '70%'}} src={wednesday9} />
           <p class="blogCaption">Main Stage, viewing the Opening Keynote</p>
           <br/>
           <p>
-              I left the keynote a bit early to try to check in at our hotel, but they didn’t have a room
+              I left the keynote a bit early to try to check in at our hotel, but they didn't have a room
               ready for us yet. So…back to the Expo Hall!
               <br/><br/>
               I learned about a company called Arcadia, which creates software to help people lower their
@@ -183,7 +189,7 @@ export default function GHC2022() {
               (and Anushka & Jackie).
           </p>
           <br/>
-          <img style={{width: '70%'}} src="./blog-images/ghc22/wednesday/(10) 2022-09-21_disney.jpg" />
+          <img className="blogImage" style={{width: '70%'}} src={wednesday10} />
           <p class="blogCaption">a lovely photo of us with Minnie!</p>
           <br/>
           <p>
@@ -193,87 +199,87 @@ export default function GHC2022() {
               talk to someone else.
               <br/><br/>
               Since it was some time in the afternoon at this point, we all needed food. To the FOOD COURT! I
-              got a Nathan’s hot dog and some very expensive strawberry lemonade that definitely wasn’t worth
-              the price. You win some, you lose some. Anushka got a gyro, which is relevant because I’m
+              got a Nathan's hot dog and some very expensive strawberry lemonade that definitely wasn't worth
+              the price. You win some, you lose some. Anushka got a gyro, which is relevant because I'm
               stealing her photo:
           </p>
           <br/>
           <div>
-              <img style={{width: '45%'}} src="./blog-images/ghc22/wednesday/(11) 2022-09-21_hotdog.jpg" />
-              <img style={{width: '35%'}} src="./blog-images/ghc22/wednesday/(12) 2022-09-21_lunch.png" />
+              <img className="blogImage" style={{width: '45%'}} src={wednesday11} />
+              <img className="blogImage" style={{width: '35%'}} src={wednesday12} />
           </div>
-          <p class="blogCaption">my hotdog & pink lemonade; Anushka’s photo of us & her gyro</p>
+          <p class="blogCaption">my hotdog & pink lemonade; Anushka's photo of us & her gyro</p>
           <br/>
           <p>
               Later, Mia and I went to a discussion about how to adapt human-centered design to focus on
               groups of users rather than individuals. My takeaway: when approaching a design, we may often
               forget to envision a user as part of a group and how the design plays a role in that.
-              Human-centered design can be adapted to consider how a user’s individual role vs. group role
+              Human-centered design can be adapted to consider how a user's individual role vs. group role
               changes their interaction with the technology being considered.
           </p>
           <br/>
           <div>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/wednesday/(13) 2022-09-21_discussion1.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/wednesday/(14) 2022-09-21_discussion2.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/wednesday/(15) 2022-09-21_discussion3.jpg" />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday13} />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday14} />
+              <img className="blogImage" style={{width: '30%'}} src={wednesday15} />
           </div>
           <br/>
           <p>
               It was almost 5pm and we were all exhausted, so it was time to head back to the hotel…
           </p>
           <br/>
-          <img style={{width: '70%'}} src="./blog-images/ghc22/wednesday/(16) 2022-09-21_leavingGHC.jpg" />
+          <img className="blogImage" style={{width: '70%'}} src={wednesday16} />
           <p class="blogCaption">selfies are fun</p>
           <br/>
           <h4 class="nomargins">Dinner with WICS</h4>
           <p>
-              For dinner, we went to Mia’s Italian Kitchen (it didn’t actually belong to our friend Mia
+              For dinner, we went to Mia's Italian Kitchen (it didn't actually belong to our friend Mia
               though). I ordered a Caesar salad and two plates of gnocchi, plus an Italian Spritzer to drink.
               It was delish!
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/wednesday/(19) 2022-09-21_food.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/wednesday/(18) 2022-09-21_dinner.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday19} />
+              <img className="blogImage" style={{width: '40%'}} src={wednesday18} />
           </div>
           <br/>
           <p>
               Outside of the restaurant was this car with a giant lobster on top. It was amazing!!!
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/wednesday/(17) 2022-09-21_lobster.jpg" />
+          <img className="blogImage" style={{width: '60%'}} src={wednesday17} />
           <br/>
           <p>After dinner, I painted my nails while watching The Office and then promptly fell asleep.</p>
 
           {/* DAY 2 */}
           <h3>Thursday, September 22: GHC Day 2</h3>
           <p>
-              I slept in until 9:30am this day (😲) and it was fantastic! I watched The Office and didn’t
+              I slept in until 9:30am this day (😲) and it was fantastic! I watched The Office and didn't
               leave the hotel room until 11am. The past two days of getting up very early and staying busy all
               day long were starting to wear on me.
               <br/><br/>
               The previous day, I got a pack of free instant coffee at the Starbucks booth, so I made that
               with the hotel coffee maker. To be honest…it tasted awful! Not sure if that was the fault of the
-              coffee or the hotel’s powder creamer. Anyways, I got dressed in my cute lil gingham number and
+              coffee or the hotel's powder creamer. Anyways, I got dressed in my cute lil gingham number and
               was ready to take on my 2nd day of GHC!
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/thursday/(1) 2022-09-22_coffee.jpg" />
-              <img style={{width: '40%'}} src="./blog-images/ghc22/thursday/(2) 2022-09-22_fit.jpg" />
+              <img className="blogImage" style={{width: '40%'}} src={thursday1} />
+              <img className="blogImage" style={{width: '40%'}} src={thursday2} />
           </div>
           <p class="blogCaption">morning beverage, the fit of the day</p>
           <br/>
           <p>
               I spent some more time exploring the convention center. There was a meeting hall for 1:1s, which
-              are conversations with company representatives that are basically interviews. I didn’t sign up
+              are conversations with company representatives that are basically interviews. I didn't sign up
               for any since the slots filled up very quickly, but it seemed cool!
           </p>
           <br/>
           <div>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(3) 2022-09-22_welcome.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(4) 2022-09-22_meetinghall.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(5) 2022-09-22_conferencecenter.jpg" />
+              <img className="blogImage" style={{width: '30%'}} src={thursday3} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday4} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday5} />
           </div>
           <p class="blogCaption">photos of the Orange County Convention Center</p>
           <br/>
@@ -292,31 +298,31 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(6) 2022-09-22_playstation.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(7) 2022-09-22_google.jpg" />
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(8) 2022-09-22_snapchat.jpg" />
+              <img className="blogImage" style={{width: '30%'}} src={thursday6} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday7} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday8} />
           </div>
           <br/>
           <p>
               After a few hours, I felt satisfied with the conversations I had with company representatives
-              and had explored enough of the conference. I wasn’t super interested in attending a discussion
+              and had explored enough of the conference. I wasn't super interested in attending a discussion
               and my eyes were tired of being open….so I decided to head back to the hotel for a nap.
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/thursday/(9) 2022-09-22_leaving.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={thursday9} />
           <p class="blogCaption">another selfie!</p>
           <br/>
           <h4 class="nomargins">Nike Party</h4>
           <p>
               After a wonderful nap in my hotel room, I got ready for something I was very excited about — the
               Nike party! During my conversation with a Nike rep the previous day, I was handed a card with an
-              invite to their GHC afterparty…which felt super fancy and top-secret, even though it wasn’t.
+              invite to their GHC afterparty…which felt super fancy and top-secret, even though it wasn't.
               <br/><br/>
               I threw on my cute-but-casual outfit and nervously applied too many layers of deodorant before
               Uber-ing to Disney Springs!
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/thursday/(10) 2022-09-22_fitcheck.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={thursday10} />
           <p class="blogCaption">fit check!</p>
           <br/>
           <p>
@@ -326,9 +332,9 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(11) 2022-09-22_disneysprings.jpg"/>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(12) 2022-09-22_houseofblues.jpg"/>
-              <img style={{width: '30%'}} src="./blog-images/ghc22/thursday/(13) 2022-09-22_water.jpg"/>
+              <img className="blogImage" style={{width: '30%'}} src={thursday11} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday12} />
+              <img className="blogImage" style={{width: '30%'}} src={thursday13} />
           </div>
           <br/>
           <p>
@@ -337,17 +343,17 @@ export default function GHC2022() {
               the party, and each person got free food and two free drink tickets (for the 21+ attendees).
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/thursday/(14) 2022-09-22_splitsville.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={thursday14} />
           <p class="blogCaption">Splitsville bowling</p>
           <br/>
           <p>
               When I arrived at the party, I met lots of new people from around the United States. I found a
               group to bowl with, which comprised of 3 people from Vermont, 2 from the Orlando area, 1 from
-              Washington, D.C., and 1 from Los Angeles. We had a great time, and it turns out I’m awesome at
+              Washington, D.C., and 1 from Los Angeles. We had a great time, and it turns out I'm awesome at
               bowling! Some of us made sure to get in on the photo booth action…
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/thursday/nike-photo-booth.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={nikePhoto} />
           <br/>
           <p>
               During the party, there was a raffle for Nike prizes (which I did not win), and then a dance
@@ -369,8 +375,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/thursday/(15) 2022-09-22_selfie1.jpg"/>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/thursday/(16) 2022-09-22_selfie2.jpg"/>
+              <img className="blogImage" style={{width: '40%'}} src={thursday15} />
+              <img className="blogImage" style={{width: '40%'}} src={thursday16} />
           </div>
           <p>selfie 1 & selfie 2</p>
           <br/>
@@ -380,7 +386,7 @@ export default function GHC2022() {
               to Jaedyn, who was just sitting in bed and looked like she could fall asleep at any second.
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/thursday/(17) 2022-09-22_room.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={thursday17} />
           <p class="blogCaption">attempting to pack...</p>
           <br/>
           <p>
@@ -393,11 +399,11 @@ export default function GHC2022() {
           {/* GOING HOME */}
           <h3>Friday, September 23: Going Home</h3>
           <p>
-              Friday…another big travel day. Our flight out of Orlando didn’t depart until 12pm, so I was able
+              Friday…another big travel day. Our flight out of Orlando didn't depart until 12pm, so I was able
               to watch The Office in bed while I ate breakfast and had a bit of a slow morning.
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/friday/(1) 2022-09-23_theoffice-small.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={friday1} />
           <p class="blogCaption">classic morning...!</p>
           <br/>
           <p>
@@ -406,8 +412,8 @@ export default function GHC2022() {
           </p>
           <br/>
           <div>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/friday/(2) 2022-09-23_uber.jpg"/>
-              <img style={{width: '40%'}} src="./blog-images/ghc22/friday/(3) 2022-09-23_airport.jpg"/>
+              <img className="blogImage" style={{width: '40%'}} src={friday2} />
+              <img className="blogImage" style={{width: '40%'}} src={friday3} />
           </div>
           <p>Uber; airport railway shuttle thing</p>
           <br/>
@@ -420,20 +426,20 @@ export default function GHC2022() {
               like victory.
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/friday/(4) 2022-09-23_subway.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={friday4} />
           <br/>
           <p>
               We boarded our second flight, and after a few hours in the air we landed in Irvine around
               4:30pm. A shuttle took us back to the UCI flagpoles, right where we had started.
           </p>
           <br/>
-          <img style={{width: '60%'}} src="./blog-images/ghc22/friday/(5) 2022-09-23_shuttle.jpg"/>
+          <img className="blogImage" style={{width: '60%'}} src={friday5} />
           <br/>
           <p>
               Overall, I really enjoyed my experience at GHC. I met great people, learned more about the job
               opportunities available within the tech industry, and learned about myself and what I want to do
               when I graduate. Seeing what companies I gravitated towards and what kind of keywords caught my
-              attention (i.e., web or app development) was useful in knowing what I should pursue further. I’m
+              attention (i.e., web or app development) was useful in knowing what I should pursue further. I'm
               grateful to have had the opportunity to attend GHC in person and explore everything this event
               had to offer.
               <br/><br/>

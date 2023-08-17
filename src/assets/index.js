@@ -48,11 +48,6 @@ import TheShining from './images/movies/theshining.jpg';
 import TheTrumanShow from './images/movies/trumanshow.jpg';
 import Trainspotting from './images/movies/trainspotting.jpg';
 import BlackSwan from './images/movies/blackswan.jpg';
-// blog previews
-import graduated from './blog-images/graduated/diploma1 - cropped.jpg';
-import GHC22 from './blog-images/ghc22/GHC-22-cover.jpg';
-import coronaDelMar from './blog-images/ucidaytrips/coronadelmar.webp';
-import GHC21 from './blog-images/ghc21/2021-09-27.webp';
 
 // 88x31s
 export{
@@ -109,11 +104,5 @@ export{
     TheShining,
     TheTrumanShow,
     Trainspotting,
-    BlackSwan,
-
-    // BLOG IMAGES
-    graduated,
-    GHC22,
-    coronaDelMar,
-    GHC21
+    BlackSwan
 };

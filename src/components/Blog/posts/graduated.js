@@ -1,5 +1,5 @@
 import '../Blog.css';
-import { diploma1, diploma2 } from '../../../assets/blog-images';
+import { diploma1, diploma2 } from '../../../assets/blog-images/graduated';
 
 export default function Graduated() {
   return (
@@ -25,8 +25,8 @@ export default function Graduated() {
             </p>
             <br/>
             <div>
-                <img style={{width: `30%`}} src={diploma1} alt="Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'" />
-                <img style={{width: `30%`}} src={diploma2} alt="Grace wearing a grad cap and gown, smiling and holding a diploma holder with a post-it note inside that says 'diploma.'" />
+                <img style={{width: `30%`, margin: `2px`}} src={diploma1} alt="Grace wearing a grad cap and gown, pointing to a diploma holder with a post-it note inside that says 'diploma.'" />
+                <img style={{width: `30%`, margin: `2px`}} src={diploma2} alt="Grace wearing a grad cap and gown, smiling and holding a diploma holder with a post-it note inside that says 'diploma.'" />
             </div>
         </div>
     </div>
