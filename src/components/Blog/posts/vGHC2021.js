@@ -6,9 +6,9 @@ export default function vGHC2021() {
   return (
     <div className="mainContent">
         <div className="blogNavigation">
-            <a href="UCIdaytrips">← prev</a>
+            <p>← prev</p>
             <h4 className="nomargins">BLOG POSTS</h4>
-            <p>next →</p>
+            <a href="UCIdaytrips">next →</a>
         </div>
         <div className="contentBoxLeft">
             <h2 className="nomargins">My vGHC 2021 Experience</h2>
