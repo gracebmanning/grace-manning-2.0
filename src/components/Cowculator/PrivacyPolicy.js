@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
         <div className="contentBoxCenter">
             <h1>Cowculator Privacy Policy</h1>
             <p>
-                The Cowculator does not collect any data. That's it!
+              Cowculator, a mobile application, does not collect any data. Your personal data will not be collected, shared, or sold. That's it!
             </p>
         </div>
     </div>
