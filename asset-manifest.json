@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce2e9aab.css",
-    "main.js": "/static/js/main.371cfdd3.js",
+    "main.css": "/static/css/main.5a640339.css",
+    "main.js": "/static/js/main.2d2f45ef.js",
     "static/media/(12) 2022-09-21_lunch.png": "/static/media/(12) 2022-09-21_lunch.71916da096c979fa9e1d.png",
     "static/media/(1) 2022-09-20_airportshuttle.jpg": "/static/media/(1) 2022-09-20_airportshuttle.284c0e196182d665a95b.jpg",
     "static/media/jankystar.png": "/static/media/jankystar.6f6c76496095cb60d5f9.png",
@@ -76,9 +76,11 @@
     "static/media/diploma1 - cropped.jpg": "/static/media/diploma1 - cropped.a62effe38a1115180935.jpg",
     "static/media/comic.woff": "/static/media/comic.a2be43a694d73478ffb5.woff",
     "static/media/(4) 2022-09-20_planefood.jpg": "/static/media/(4) 2022-09-20_planefood.0429797c2edde8b03073.jpg",
+    "static/media/Pixel6_blue_main.png": "/static/media/Pixel6_blue_main.b858922a9339744a8295.png",
     "static/media/anteater.jpg": "/static/media/anteater.57ffe6c57d33384866b2.jpg",
     "static/media/comicbd.woff": "/static/media/comicbd.513ce2de68967bb1a4c1.woff",
     "static/media/shermanlibrary1.webp": "/static/media/shermanlibrary1.93f189ceecb455671e15.webp",
+    "static/media/Pixel6_pink_main.png": "/static/media/Pixel6_pink_main.c6261083d50fe227fbb4.png",
     "static/media/aquarium1.webp": "/static/media/aquarium1.e9eedfcedd13efbef5ab.webp",
     "static/media/comici.woff": "/static/media/comici.4a311c8400841b48bdd1.woff",
     "static/media/trumanshow.jpg": "/static/media/trumanshow.ac92ceb7bd2f591d5528.jpg",
@@ -93,11 +95,15 @@
     "static/media/2021-09-28.webp": "/static/media/2021-09-28.3532a80a95917439950c.webp",
     "static/media/2021-09-27.webp": "/static/media/2021-09-27.7991665641270b0b4bce.webp",
     "static/media/whiteboard.jpg": "/static/media/whiteboard.8ec3517a988a0c67d01b.jpg",
+    "static/media/Pixel6_blue_settings.png": "/static/media/Pixel6_blue_settings.2334e55a6c175e5bb632.png",
+    "static/media/Pixel6_pink_settings.png": "/static/media/Pixel6_pink_settings.3a5639763780199e2888.png",
+    "static/media/Pixel6_blue_history.png": "/static/media/Pixel6_blue_history.543c4d853456944374da.png",
     "static/media/lcdsoundsystem.png": "/static/media/lcdsoundsystem.858c2e75edcdefaa69e3.png",
     "static/media/resume.pdf": "/static/media/resume.88d26135af580ed997d3.pdf",
     "static/media/mmfood.jpg": "/static/media/mmfood.b48c8cdfab6b555e8575.jpg",
     "static/media/cow.png": "/static/media/cow.798b7f9747eb51140eca.png",
     "static/media/ghc21logo.webp": "/static/media/ghc21logo.a9e9d661b3944c191037.webp",
+    "static/media/Pixel6_pink_history.png": "/static/media/Pixel6_pink_history.592518a3d508e161e68f.png",
     "static/media/pinkpanther.gif": "/static/media/pinkpanther.fa9b17996ac7b709606c.gif",
     "static/media/moonjelly1.webp": "/static/media/moonjelly1.0bfbfec5f12dfdf7c5a9.webp",
     "static/media/moonjelly2.webp": "/static/media/moonjelly2.344a5a5b7afaa70599fa.webp",
@@ -112,11 +118,11 @@
     "static/media/silentalarm.jpg": "/static/media/silentalarm.ece52c23f8b51fa9cc1e.jpg",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.ce2e9aab.css.map": "/static/css/main.ce2e9aab.css.map",
-    "main.371cfdd3.js.map": "/static/js/main.371cfdd3.js.map"
+    "main.5a640339.css.map": "/static/css/main.5a640339.css.map",
+    "main.2d2f45ef.js.map": "/static/js/main.2d2f45ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2e9aab.css",
-    "static/js/main.371cfdd3.js"
+    "static/css/main.5a640339.css",
+    "static/js/main.2d2f45ef.js"
   ]
 }
