@@ -48,6 +48,13 @@ import TheShining from './images/movies/theshining.jpg';
 import TheTrumanShow from './images/movies/trumanshow.jpg';
 import Trainspotting from './images/movies/trainspotting.jpg';
 import BlackSwan from './images/movies/blackswan.jpg';
+//cowculator
+import blueMain from './images/cowculator/Pixel6_blue_main.png';
+import blueSettings from './images/cowculator/Pixel6_blue_settings.png';
+import blueHistory from './images/cowculator/Pixel6_blue_history.png';
+import pinkMain from './images/cowculator/Pixel6_pink_main.png';
+import pinkSettings from './images/cowculator/Pixel6_pink_settings.png';
+import pinkHistory from './images/cowculator/Pixel6_pink_history.png';
 
 // 88x31s
 export{
@@ -104,5 +111,13 @@ export{
     TheShining,
     TheTrumanShow,
     Trainspotting,
-    BlackSwan
+    BlackSwan,
+
+    // COWCULATOR
+    blueMain,
+    blueSettings,
+    blueHistory,
+    pinkMain,
+    pinkSettings,
+    pinkHistory
 };
