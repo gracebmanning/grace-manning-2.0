@@ -33,8 +33,7 @@ export default function Cowculator() {
           <img className="previewImage" src={blueMain} alt="calculator with cow-spot-shaped buttons. buttons are light blue on white background." />
           <img className="previewImage" src={blueSettings} alt="settings page with options to change color theme, toggle sound effects, etc." />
           <img className="previewImage" src={blueHistory} alt="history page that lists the previous calculations." />
-        </div>
-        <div className="previewContainer">
+        
           <img className="previewImage" src={pinkMain} alt="calculator with cow-spot-shaped buttons. buttons are light pink on white background." />
           <img className="previewImage" src={pinkSettings} alt="settings page with options to change color theme, toggle sound effects, etc." />
           <img className="previewImage" src={pinkHistory} alt="history page that lists the previous calculations." />

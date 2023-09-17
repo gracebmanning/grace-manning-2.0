@@ -22,13 +22,22 @@
 }
 
 .previewContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .previewImage{
-    height: 450px;
+    width: 75%;
+    justify-self: center;
+    margin: 5px;
+}
+
+.privacyDetails li{
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .previewContainer{
+        grid-template-columns: 1fr 1fr;
+    }
 }
