@@ -1,5 +1,6 @@
 import './Sidebar.css';
 import { flyingEnvelope, css, adobe, enchantedForest, gotHTML, homer, imaginaryLand, spongebobWebsite } from '../../assets';
+import resume from '../../documents/resume.pdf';
 
 function lastModified(){
   var date = new Date(document.lastModified);
@@ -17,6 +18,8 @@ export default function Sidebar() {
       <a href="https://github.com/gracebmanning" target="_blank" rel="noreferrer">github</a>
       <br/>
       <a href="https://www.linkedin.com/in/grace-manning/" target="_blank" rel="noreferrer">linkedin</a>
+      <br/>
+      <a href={resume} target="_blank" rel="noreferrer">resume</a>
 
       <br/><br/>
       <h3 className="sidebarHeader">contact</h3>
