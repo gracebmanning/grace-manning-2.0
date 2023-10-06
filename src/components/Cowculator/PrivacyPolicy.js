@@ -195,5 +195,3 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
-
-// use the LIFX privacy policy https://www.lifx.com/pages/privacy-policy

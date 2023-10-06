@@ -55,6 +55,16 @@ import blueHistory from './images/cowculator/Pixel6_blue_history.png';
 import pinkMain from './images/cowculator/Pixel6_pink_main.png';
 import pinkSettings from './images/cowculator/Pixel6_pink_settings.png';
 import pinkHistory from './images/cowculator/Pixel6_pink_history.png';
+//emma bday images
+import happyBirthday from './emma-bday-images/happy-birthday.gif';
+import cake from './emma-bday-images/cake.gif';
+import balloons from './emma-bday-images/balloons_animated.gif';
+import emmaSlaying from './emma-bday-images/IMG_5266.JPG';
+import pigEatingCake from './emma-bday-images/pig_eating_cake.gif';
+import cake2 from './emma-bday-images/birthdaycake2.gif';
+import wordleSlay from './emma-bday-images/wordle-slays.png';
+import crosswordSlays from './emma-bday-images/crossword-slays.png';
+import balloonsPoohAndPig from './emma-bday-images/balloons_poohandpig.gif';
 
 // 88x31s
 export{
@@ -119,5 +129,16 @@ export{
     blueHistory,
     pinkMain,
     pinkSettings,
-    pinkHistory
+    pinkHistory,
+
+    // EMMA BDAY IMAGES
+    happyBirthday,
+    cake,
+    balloons,
+    emmaSlaying,
+    pigEatingCake,
+    cake2,
+    wordleSlay,
+    crosswordSlays,
+    balloonsPoohAndPig
 };

@@ -13,6 +13,7 @@ import Support from './components/Cowculator/Support';
 import UGradResearch from './components/UGradResearch/UGradResearch';
 import FortuneTeller from './components/FortuneTeller/FortuneTeller';
 import AssetSources from './components/AssetSources/AssetSources';
+import Emma22Bday from './components/zEmma22Bday/emma22bday';
 import { Routes, Route } from 'react-router-dom';
 
 // blog
@@ -41,6 +42,7 @@ export default function App() {
             <Route path='undergrad-research' element={<UGradResearch/>} />
             <Route path='fortune-teller' element={<FortuneTeller/>} />
             <Route path='asset-sources' element={<AssetSources/>} />
+            <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
             <Route path='*' element={<PageDoesNotExist/>} />
         </Routes>
         <Sidebar />
