@@ -163,8 +163,37 @@ export default function PrivacyPolicy() {
               When determining the retention period, we take into account various criteria, such as the type of products and services requested by or provided to you, the nature and length of our relationship with you, possible re-enrollment with our products or services, the impact on the services we provide to you if we delete some information from or about you, mandatory retention periods provided by law and the statute of limitations.  In any event, we will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.
             </p>
             <br/>
-            
+            <h2>Security</h2>
+            <p>
+              We employ technical and organizational measures designed to prevent against risks such as accidental or unlawful destruction, accidental loss, unauthorized alteration, unauthorized disclosure or access, misuse, and any other unlawful form of processing of the Personal Information in our possession.
+              <br/><br/>
+              Please be aware that no security measures are perfect or impenetrable. We cannot guarantee that information about you will not be accessed, viewed, disclosed, altered, or destroyed by breach of any of our administrative, physical, and electronic safeguards, subject to requirements under applicable law to ensure or warrant information security. You acknowledge and agree that you provide your Personal Information at your own risk.  
+              <br/><br/>
+              We will make any legally-required disclosures of any breach of the security, confidentiality, or integrity of your unencrypted electronically stored Personal Information to you via email or conspicuous posting on our Site in the most expedient time possible and without unreasonable delay, consistent with (i) the legitimate needs of law enforcement or (ii) any measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system , and any other disclosures that may be required under applicable law.
+            </p>
+            <br/>
+            <h2>California and Delaware "Do Not Track" Disclosures</h2>
+            <p>
+            California and Delaware law require us to indicate whether it honors "Do Not Track" settings in your browser concerning targeted advertising. We adhere to the standards set out in this Privacy Policy and do not monitor or respond to Do Not Track browser requests.
+            </p>
+            <br/>
+            <h2>Children</h2>
+            <p>
+              Grace Manning's website or other entities do not collect or maintain Personal Information from or about children under the age of thirteen (13) and the Services are not intended to be used by persons under thirteen (13). If you are under the age of thirteen (13), please do not use any of our Services at any time nor in any manner. If we learn that Personal Information of persons under thirteen (13) years of age has been collected on or through the Services, then we may make the user content inaccessible. If you find that we have Personal Information about anyone below thirteen (13) years of age, please inform us at privacy@grace-manning.com.
+            </p>
+            <br/>
+            <h2>Changes To This Privacy Policy</h2>
+            <p>
+              This Privacy Policy may be amended by us from time to time. If we make material changes to this Privacy Policy, we will use all reasonable efforts to notify you of such changes by posting the revised Privacy Policy on the Grace Manning website. Your continued use of the Services after such notification of changes as described above will constitute your agreement to such changes. If you object to any change, your sole recourse shall be to immediately cease all access and use of the Services.
+            </p>
+            <br/>
+            <h2>Questions and Additional Information</h2>
+            <p>
+              Please feel free to contact us at privacy@grace-manning.com if you have any questions about this Privacy Policy or our information collection and security practices.
+            </p>
         </div>
     </div>
   );
 }
+
+// use the LIFX privacy policy https://www.lifx.com/pages/privacy-policy
