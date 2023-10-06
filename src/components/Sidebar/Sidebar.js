@@ -12,8 +12,6 @@ function lastModified(){
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <h2 hidden>sidebar</h2>
-
       <h3 className="sidebarHeader">my other links</h3>
       <a href="https://github.com/gracebmanning" target="_blank" rel="noreferrer">github</a>
       <br/>
@@ -23,7 +21,7 @@ export default function Sidebar() {
 
       <br/><br/>
       <h3 className="sidebarHeader">contact</h3>
-      <a href="mailto:gracebmanning@gmail.com">email</a>
+      <a href="mailto:contact@grace-manning.com">email</a>
       <br/>
       <img src={flyingEnvelope} alt="white envelope with yellow wings" id="envelopeGif" />
 
