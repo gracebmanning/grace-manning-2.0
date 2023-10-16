@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Photography from './components/Photography/Photography';
 import Blog from './components/Blog/Blog';
 import Videos from './components/Videos/Videos';
 import Favorites from './components/Favorites/Favorites';
@@ -29,6 +30,7 @@ export default function App() {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='about' element={<About/>} />
+            <Route path='photography' element={<Photography/>} />
             <Route path='blog/*' element={<Blog/>} />
             <Route path='blog/graduated' element={<Graduated/>} />
             <Route path='blog/GHC2022' element={<GHC2022/>} />

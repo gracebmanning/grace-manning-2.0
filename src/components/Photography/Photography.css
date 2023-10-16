@@ -1,0 +1,30 @@
+.photoTile{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--lavender-background);
+
+    width: 90%;
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+
+    transform: scale(1.0);
+    transition: 0.2s ease-out;
+}
+
+.photoTile:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in;
+}
+
+.photo{
+    width: 100%;
+}
+
+.photoGallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 15px;
+}

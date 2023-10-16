@@ -1,5 +1,5 @@
 import './Sidebar.css';
-import { flyingEnvelope, css, adobe, enchantedForest, gotHTML, homer, imaginaryLand, spongebobWebsite } from '../../assets';
+import { css, adobe, enchantedForest, gotHTML, homer, imaginaryLand, spongebobWebsite } from '../../assets';
 import resume from '../../documents/resume.pdf';
 
 function lastModified(){
@@ -23,7 +23,6 @@ export default function Sidebar() {
       <h3 className="sidebarHeader">contact</h3>
       <a href="mailto:contact@grace-manning.com">email</a>
       <br/>
-      <img src={flyingEnvelope} alt="white envelope with yellow wings" id="envelopeGif" />
 
       <br/>
       <h3 className="sidebarHeader">established</h3>
