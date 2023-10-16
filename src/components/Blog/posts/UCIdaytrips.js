@@ -48,7 +48,7 @@ export default function UCIdaytrips() {
                 special occasion breakfast!
             </p>
             <img className="blogImage" style={{width: "60%"}} src={urthcaffe} />
-            <br/>
+            <br/><br/>
             <h3>3. Santa Ana Zoo</h3>
             <p>
                 In 2019, the Santa Ana Zoo welcomed a baby anteater to their family. ZOT ZOT ZOT! Visit the

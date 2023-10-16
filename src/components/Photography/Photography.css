@@ -28,3 +28,9 @@
     column-gap: 5px;
     row-gap: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .photoGallery{
+        grid-template-columns: 1fr;
+    }
+}
