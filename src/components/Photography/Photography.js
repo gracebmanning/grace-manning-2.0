@@ -1,28 +1,58 @@
 import './Photography.css';
-import { galleryInfo } from './Gallery';
+import { galleryInfo, gallery } from './Gallery';
+import { useState, useCallback } from 'react';
+import ReactSimpleImageViewer from 'react-simple-image-viewer';
 
-export function PhotoTile({image, title, location, date, link, alt}){
+export function PhotoTile({image, onClick, info}){
   return(
     <div className="photoTile">
-      <a href={link} target="_blank" rel="noreferrer">
-        <img className="photo" src={image} alt={alt} />
-      </a>
-      <p><i>{title}</i></p>
-      <p style={{fontSize: '16px'}}>{location}. {date}.</p>
+      <img className="photo" src={image} alt={info.alt} onClick={onClick} />
+      <p><i>{info.title}</i></p>
+      <p style={{fontSize: '16px'}}>{info.location}. {info.date}.</p>
+      <a style={{fontSize: '16px'}} href={info.link} target="_blank" rel="noreferrer">buy</a>
     </div>
   )
 }
 
 export default function Photography() {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+  
   return (
     <div className="mainContent">
         <div className="contentBoxCenter">
+          <p>
+            thanks for checking out my photos! view my <a href="https://society6.com/gracemanning" target="_blank" rel="noreferrer">shop</a> to purchase a print!
+          </p>
+          <br/>
           <div className="photoGallery">
-            {galleryInfo.map(function(item){
-              return(
-                <PhotoTile image={item.image} title={item.title} location={item.location} date={item.date} link={item.link} alt={item.alt} />
-              )
-            })}
+            {gallery.map((image, index) => (
+                <PhotoTile 
+                  key={index}
+                  image={image} 
+                  onClick={() => openImageViewer(index)}
+                  info={galleryInfo.at(index)}
+                />
+            ))}
+            {isViewerOpen && (
+              <ReactSimpleImageViewer
+                src={ gallery }
+                currentIndex={ currentImage }
+                disableScroll={ false }
+                closeOnClickOutside={ true }
+                onClose={ closeImageViewer }
+              />
+            )}
           </div>
         </div>
     </div>

@@ -7,19 +7,19 @@
     width: 90%;
     padding: 10px;
     justify-self: center;
-    align-self: center;
-
-    transform: scale(1.0);
-    transition: 0.2s ease-out;
-}
-
-.photoTile:hover{
-    transform: scale(1.03);
-    transition: 0.2s ease-in;
+    align-self: center;    
 }
 
 .photo{
     width: 100%;
+    transform: scale(1.0);
+    transition: 0.2s ease-out;
+}
+
+.photo:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s ease-in;
 }
 
 .photoGallery{
@@ -27,6 +27,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
     row-gap: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+    .photoGallery{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 768px) {
