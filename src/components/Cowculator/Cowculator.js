@@ -1,5 +1,7 @@
 import './Cowculator.css';
 import { blueMain, blueSettings, blueHistory, pinkMain, pinkSettings, pinkHistory } from '../../assets';
+import { useState, useCallback } from 'react';
+import ReactSimpleImageViewer from 'react-simple-image-viewer';
 
 const previews = [blueMain, blueSettings, blueHistory, pinkMain, pinkSettings, pinkHistory];
 
@@ -7,12 +9,44 @@ let googlePlayBadge = "https://play.google.com/intl/en_us/badges/static/images/b
 let cowculatorGooglePlay = "https://play.google.com/store/apps/details?id=com.gracemanning.cowculator&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1";
 
 export default function Cowculator() {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+
   return (
     <div className="mainContent">
       <div className="contentBoxCenter">
           <h1>Cowculator</h1>
           <div className="cowculatorBody">
-            <img className="blueMain" src={blueMain} alt="calculator with cow-spot-shaped buttons. buttons are light blue on white background." />
+            <div className="previewImages">
+              {previews.map((image, index) => (
+                  <img 
+                    key={index}
+                    className="previewImage"
+                    src={image}
+                    alt="calculator with cow spot shaped buttons"
+                    onClick={() => openImageViewer(index)}
+                  />
+              ))}
+              {isViewerOpen && (
+                <ReactSimpleImageViewer
+                  src={ previews }
+                  currentIndex={ currentImage }
+                  disableScroll={ false }
+                  closeOnClickOutside={ true }
+                  onClose={ closeImageViewer }
+                />
+              )}
+            </div>
             <div className="cowculatorText">
               <div className="appStoreText">
                 <p>

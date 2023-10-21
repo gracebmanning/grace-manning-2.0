@@ -5,7 +5,7 @@
 }
 
 .cowculatorText{
-    width: 60%;
+    width: 55%;
     display: flex;
     flex-direction: column;
 }
@@ -20,14 +20,25 @@
     width: 200px;
 }
 
-.blueMain{
-    width: 35%;
+.previewImages{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.previewImage{
+    width: 90%;
     border-radius: 10px;
+}
+
+.previewImage:hover{
+    cursor: pointer;
 }
 
 .buttonTile{
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     background-color: var(--lavender-background);
     transition: 0.2s ease-out;
@@ -50,10 +61,4 @@
 
 .privacyDetails li{
     margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-    .previewContainer{
-        grid-template-columns: 1fr 1fr;
-    }
 }
