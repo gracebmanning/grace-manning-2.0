@@ -1,45 +1,43 @@
 import './Cowculator.css';
-import { construction, blueMain, blueSettings, blueHistory, pinkMain, pinkSettings, pinkHistory } from '../../assets';
+import { blueMain, blueSettings, blueHistory, pinkMain, pinkSettings, pinkHistory } from '../../assets';
+
+const previews = [blueMain, blueSettings, blueHistory, pinkMain, pinkSettings, pinkHistory];
+
+let googlePlayBadge = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png";
+let cowculatorGooglePlay = "https://play.google.com/store/apps/details?id=com.gracemanning.cowculator&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1";
 
 export default function Cowculator() {
   return (
     <div className="mainContent">
       <div className="contentBoxCenter">
           <h1>Cowculator</h1>
-          <p>
-              A cow-themed calculator, available on iOS and Android!
-              <br/>
-              <b>Projected release date: October 2023</b>
-          </p>
-          <br/>
-          <p>The Cowculator is currently under construction!</p>
-          <br/>
-          <img src={construction}
-              alt="a construction worker hitting a small object with a hammer. He wears a yellow hard hat. Behind him is a black & yellow caution barrier."/>
+          <div className="cowculatorBody">
+            <img className="blueMain" src={blueMain} alt="calculator with cow-spot-shaped buttons. buttons are light blue on white background." />
+            <div className="cowculatorText">
+              <div className="appStoreText">
+                <p>
+                  A cow-themed calculator, currently available on Android!
+                  <a href={cowculatorGooglePlay} target="_blank" rel="noreferrer">
+                    <img className="googlePlayBadge" alt='Get it on Google Play' src={googlePlayBadge} />
+                  </a>
+                </p>
+                <p>
+                  iOS publishing is in progress.
+                </p>
+              </div>
+              <div className="tileContainer">
+                <a className="tileLink" href="cowculator/support">
+                  <div className="buttonTile">Support</div>
+                </a>
+                <a className="tileLink" href="cowculator/privacy">
+                  <div className="buttonTile">Privacy Policy</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <br/><br/>
+          <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
       </div>
-      <div className="contentBoxCenter">
-        <div className="tileContainer">
-          <a className="tileLink" href="cowculator/support">
-            <div className="buttonTile">Support</div>
-          </a>
-          <a className="tileLink" href="cowculator/privacy">
-            <div className="buttonTile">Privacy Policy</div>
-          </a>
-        </div>
-      </div>
-      <div className="contentBoxCenter">
-        <h2>App Previews...</h2>
-        <div className="previewContainer">
-          <img className="previewImage" src={blueMain} alt="calculator with cow-spot-shaped buttons. buttons are light blue on white background." />
-          <img className="previewImage" src={blueSettings} alt="settings page with options to change color theme, toggle sound effects, etc." />
-          <img className="previewImage" src={blueHistory} alt="history page that lists the previous calculations." />
-        
-          <img className="previewImage" src={pinkMain} alt="calculator with cow-spot-shaped buttons. buttons are light pink on white background." />
-          <img className="previewImage" src={pinkSettings} alt="settings page with options to change color theme, toggle sound effects, etc." />
-          <img className="previewImage" src={pinkHistory} alt="history page that lists the previous calculations." />
-        </div>
-      </div>
-      
     </div>
   );
 }
