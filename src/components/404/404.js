@@ -1,5 +1,5 @@
 import './404.css'
-import { butterfly } from '../../assets';
+import { butterfly } from '../../assets/gifs/gifsindex';
 
 export default function PageDoesNotExist(){
     return(

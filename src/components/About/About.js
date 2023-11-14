@@ -1,5 +1,5 @@
 import './About.css';
-import { thumbsUp, catOnPiano } from '../../assets';
+import { thumbsUp, catOnPiano } from '../../assets/gifs/gifsindex';
 import resume from '../../documents/resume.pdf';
 
 export default function About() {

@@ -9,7 +9,6 @@ export function PhotoTile({image, onClick, info}){
       <img className="photo" src={image} alt={info.alt} onClick={onClick} />
       <p><i>{info.title}</i></p>
       <p style={{fontSize: '16px'}}>{info.location}. {info.date}.</p>
-      <a style={{fontSize: '16px'}} href={info.link} target="_blank" rel="noreferrer">buy</a>
     </div>
   )
 }

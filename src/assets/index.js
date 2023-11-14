@@ -1,22 +1,3 @@
-// 88x31s
-import css from './88x31/css.gif';
-import adobe from './88x31/adobe_getflash4.gif';
-import enchantedForest from './88x31/gc_enchantedforest.gif';
-import gotHTML from './88x31/got_html.gif';
-import homer from './88x31/homernow.gif';
-import imaginaryLand from './88x31/imaginaryland2.gif';
-import spongebobWebsite from './88x31/thespongebobwebsite.gif';
-
-// GIFS
-import cowGif from './gifs/cow.gif';
-import rainbowStars from './gifs/star_rainbow.gif';
-import flyingEnvelope from './gifs/flying_envelope.gif';
-import thumbsUp from './gifs/thumbsup.gif';
-import catOnPiano from './gifs/CATONPIANO.gif';
-import construction from './gifs/construction.gif';
-import butterfly from './gifs/bigButterfly.gif';
-import pinkPanther from './gifs/pinkpanther.gif';
-
 // IMAGES
 import orangeCow from './images/cow.png';
 import frogResult from './images/result12.jpg';
@@ -48,13 +29,6 @@ import TheShining from './images/movies/theshining.jpg';
 import TheTrumanShow from './images/movies/trumanshow.jpg';
 import Trainspotting from './images/movies/trainspotting.jpg';
 import BlackSwan from './images/movies/blackswan.jpg';
-//cowculator
-import blueMain from './images/cowculator/Pixel6_blue_main.png';
-import blueSettings from './images/cowculator/Pixel6_blue_settings.png';
-import blueHistory from './images/cowculator/Pixel6_blue_history.png';
-import pinkMain from './images/cowculator/Pixel6_pink_main.png';
-import pinkSettings from './images/cowculator/Pixel6_pink_settings.png';
-import pinkHistory from './images/cowculator/Pixel6_pink_history.png';
 //emma bday images
 import happyBirthday from './emma-bday-images/happy-birthday.gif';
 import cake from './emma-bday-images/cake.gif';
@@ -81,29 +55,6 @@ import rowboat from './images/photography/Rowboat to Nowhere.jpg';
 import surfers from './images/photography/Surfers at Dusk.jpg';
 import windanseaI from './images/photography/Windansea Sunset I.jpg';
 import windanseaII from './images/photography/Windansea Sunset II.jpg';
-
-// 88x31s
-export{
-    css,
-    adobe,
-    enchantedForest,
-    gotHTML,
-    homer,
-    imaginaryLand,
-    spongebobWebsite
-};
-
-// GIFS
-export{
-    cowGif,
-    rainbowStars,
-    flyingEnvelope,
-    thumbsUp,
-    catOnPiano,
-    construction,
-    butterfly,
-    pinkPanther
-};
 
 // IMAGES
 export{
@@ -138,14 +89,6 @@ export{
     TheTrumanShow,
     Trainspotting,
     BlackSwan,
-
-    // COWCULATOR
-    blueMain,
-    blueSettings,
-    blueHistory,
-    pinkMain,
-    pinkSettings,
-    pinkHistory,
 
     // EMMA BDAY IMAGES
     happyBirthday,

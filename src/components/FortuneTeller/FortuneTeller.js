@@ -1,6 +1,7 @@
 import './FortuneTeller.css';
 import fortunesList from './fortunesList';
-import { orangeTape, pinkPanther } from '../../assets';
+import { pinkPanther } from '../../assets/gifs/gifsindex';
+import { orangeTape } from '../../assets';
 
 function getFortune() {
     var fortune = fortunesList[Math.floor(Math.random() * fortunesList.length)];

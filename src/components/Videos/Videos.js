@@ -1,5 +1,5 @@
 import './Videos.css';
-import { construction } from '../../assets';
+import { construction } from '../../assets/gifs/gifsindex';
 
 export default function Videos() {
   return (

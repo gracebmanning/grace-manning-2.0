@@ -8,12 +8,7 @@ import Photography from './components/Photography/Photography';
 import Blog from './components/Blog/Blog';
 import Videos from './components/Videos/Videos';
 import Favorites from './components/Favorites/Favorites';
-import Cowculator from './components/Cowculator/Cowculator';
-import PrivacyPolicy from './components/Cowculator/PrivacyPolicy';
-import Support from './components/Cowculator/Support';
-import UGradResearch from './components/UGradResearch/UGradResearch';
 import FortuneTeller from './components/FortuneTeller/FortuneTeller';
-import AssetSources from './components/AssetSources/AssetSources';
 import Emma22Bday from './components/zEmma22Bday/emma22bday';
 import { Routes, Route } from 'react-router-dom';
 
@@ -38,12 +33,7 @@ export default function App() {
             <Route path='blog/vGHC2021' element={<GHC2021/>} />
             <Route path='videos' element={<Videos/>} />
             <Route path='favorites' element={<Favorites/>} />
-            <Route path='cowculator' element={<Cowculator/>} />
-            <Route path='cowculator/privacy' element={<PrivacyPolicy/>} />
-            <Route path='cowculator/support' element={<Support/>} />
-            <Route path='undergrad-research' element={<UGradResearch/>} />
             <Route path='fortune-teller' element={<FortuneTeller/>} />
-            <Route path='asset-sources' element={<AssetSources/>} />
             <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
             <Route path='*' element={<PageDoesNotExist/>} />
         </Routes>

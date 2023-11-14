@@ -1,5 +1,5 @@
 import './Navbar.css';
-import { cowGif, rainbowStars } from '../../assets';
+import { cowGif, rainbowStars } from '../../assets/gifs/gifsindex';
 import { CgMenuBoxed } from 'react-icons/cg';
 import { IconContext } from "react-icons";
 import { useState } from 'react';
@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className={isNavExpanded ? "navHeader expanded" : "navHeader"}>
             <img src={cowGif} alt="black and white cow turning its head"/>
             <div className="navHeaderText">
-                <h1 id="navTitle">grace-manning.com</h1>
+                <h1 id="navTitle">graces-portal.net</h1>
                 <h2 id="navSubtitle">...where dreams come true!</h2>
             </div>
         </div>
@@ -52,22 +52,17 @@ export default function Navbar() {
                 <a href="/favorites">my favorites</a>
             </li>
             <NavSeparator/>
-            <p><b>software projects</b></p>
-            <li className="navLink">★
-                <a href="/cowculator">cowculator</a>
-            </li>
-            <li className="navLink">★
-                <a href="/undergrad-research">research</a>
-            </li>
-            <NavSeparator/>
             <p><b>fun stuff</b></p>
             <li className="navLink">★
                 <a href="/fortune-teller">fortune teller</a>
             </li>
             <NavSeparator/>
-            <p><b>miscellaneous</b></p>
+            <p><b>software projects</b></p>
             <li className="navLink">★
-                <a href="/asset-sources">asset sources</a>
+                <a href="https://grace-manning.com/cowculator" target="_blank" rel="noreferrer">cowculator</a>
+            </li>
+            <li className="navLink">★
+                <a href="https://grace-manning.com/undergrad-research" target="_blank" rel="noreferrer">research</a>
             </li>
         </ul>
         <div className={isNavExpanded ? "navStars expanded" : "navStars"}><img src={rainbowStars} alt="line of rainbow stars"/></div>
