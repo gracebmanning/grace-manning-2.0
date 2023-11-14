@@ -35,7 +35,6 @@ export default function Sidebar() {
       <h3 className="sidebarHeader">last updated</h3>
       <p id="lastModified">{lastModified()}</p>
 
-      <br/>
       <p className="navSeparator">-------------------------------</p>
 
       <h3 className="sidebarHeader">my 88x31 collection</h3>

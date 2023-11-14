@@ -134,7 +134,7 @@ a:hover{
 
 @media only screen and (max-width: 768px) {
 	.mainContent {
-		width: 80%;
+		width: 100%;
 		margin-left: 1px;
 		margin-top: 45px;
 	}

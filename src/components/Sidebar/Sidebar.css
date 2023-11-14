@@ -16,14 +16,14 @@
 .collection{
 	margin: 0px;
 	padding: 0px;
-	
 }
 
 @media screen and (max-width: 768px) {
 	.sidebar{
-		width: 18%;
+		width: 97%;
 		margin-top: 45px;
-		margin-right: 1px;
+		margin-right: 0px;
+		margin-left: 1px;
 		padding: 2px;
 	}
 
@@ -33,9 +33,7 @@
 
 	.collection{
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		flex-wrap: wrap;
 	}
 
 	#envelopeGif{

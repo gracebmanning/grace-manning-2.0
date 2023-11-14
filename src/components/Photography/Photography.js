@@ -2,6 +2,8 @@ import './Photography.css';
 import { galleryInfo, gallery } from './Gallery';
 import { useState, useCallback } from 'react';
 import ReactSimpleImageViewer from 'react-simple-image-viewer';
+import Navbar from '../Navbar/Navbar';
+import Sidebar from '../Sidebar/Sidebar';
 
 export function PhotoTile({image, onClick, info}){
   return(
@@ -28,32 +30,36 @@ export default function Photography() {
   };
   
   return (
-    <div className="mainContent">
-        <div className="contentBoxCenter">
-          <p>
-            thanks for checking out my photos! view my <a href="https://society6.com/gracemanning" target="_blank" rel="noreferrer">shop</a> to purchase a print!
-          </p>
-          <br/>
-          <div className="photoGallery">
-            {gallery.map((image, index) => (
-                <PhotoTile 
-                  key={index}
-                  image={image} 
-                  onClick={() => openImageViewer(index)}
-                  info={galleryInfo.at(index)}
+    <div className="container">
+      <Navbar/>
+      <div className="mainContent">
+          <div className="contentBoxCenter">
+            <p>
+              thanks for checking out my photos! view my <a href="https://society6.com/gracemanning" target="_blank" rel="noreferrer">shop</a> to purchase a print!
+            </p>
+            <br/>
+            <div className="photoGallery">
+              {gallery.map((image, index) => (
+                  <PhotoTile 
+                    key={index}
+                    image={image} 
+                    onClick={() => openImageViewer(index)}
+                    info={galleryInfo.at(index)}
+                  />
+              ))}
+              {isViewerOpen && (
+                <ReactSimpleImageViewer
+                  src={ gallery }
+                  currentIndex={ currentImage }
+                  disableScroll={ false }
+                  closeOnClickOutside={ true }
+                  onClose={ closeImageViewer }
                 />
-            ))}
-            {isViewerOpen && (
-              <ReactSimpleImageViewer
-                src={ gallery }
-                currentIndex={ currentImage }
-                disableScroll={ false }
-                closeOnClickOutside={ true }
-                onClose={ closeImageViewer }
-              />
-            )}
+              )}
+            </div>
           </div>
-        </div>
+      </div>
+      <Sidebar/>
     </div>
   );
 }

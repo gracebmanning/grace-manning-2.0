@@ -6,6 +6,7 @@ import catOnPiano from './CATONPIANO.gif';
 import construction from './construction.gif';
 import butterfly from './bigButterfly.gif';
 import pinkPanther from './pinkpanther.gif';
+import open24 from './open24.gif';
 
 export{
     cowGif,
@@ -15,7 +16,8 @@ export{
     catOnPiano,
     construction,
     butterfly,
-    pinkPanther
+    pinkPanther,
+    open24
 };
 
 export const gifsList = [
@@ -58,5 +60,10 @@ export const gifsList = [
         asset: pinkPanther,
         source: "",
         alt: "the Pink Panther moving his hands to his chin and then pointing up with his left hand."
+    },
+    {
+        asset: open24,
+        source: "https://web.archive.org/web/20090821231925/http://geocities.com/Vienna/Stage/7955/",
+        alt: "neon sign with text saying 'Open 24 Hours'."
     },
 ]

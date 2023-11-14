@@ -1,7 +1,6 @@
 import './App.css';
+import Landing from './components/Landing/Landing';
 import PageDoesNotExist from './components/404/404';
-import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Photography from './components/Photography/Photography';
@@ -20,24 +19,21 @@ import GHC2021 from './components/Blog/posts/vGHC2021';
 
 export default function App() {
   return (
-    <div id="container">
-        <Navbar />
-        <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='about' element={<About/>} />
-            <Route path='photography' element={<Photography/>} />
-            <Route path='blog/*' element={<Blog/>} />
-            <Route path='blog/graduated' element={<Graduated/>} />
-            <Route path='blog/GHC2022' element={<GHC2022/>} />
-            <Route path='blog/UCIdaytrips' element={<UCIdaytrips/>} />
-            <Route path='blog/vGHC2021' element={<GHC2021/>} />
-            <Route path='videos' element={<Videos/>} />
-            <Route path='favorites' element={<Favorites/>} />
-            <Route path='fortune-teller' element={<FortuneTeller/>} />
-            <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
-            <Route path='*' element={<PageDoesNotExist/>} />
-        </Routes>
-        <Sidebar />
-    </div>
+    <Routes>
+        <Route path='/' element={<Landing/>} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='about' element={<About/>} />
+        <Route path='photography' element={<Photography/>} />
+        <Route path='blog/*' element={<Blog/>} />
+        <Route path='blog/graduated' element={<Graduated/>} />
+        <Route path='blog/GHC2022' element={<GHC2022/>} />
+        <Route path='blog/UCIdaytrips' element={<UCIdaytrips/>} />
+        <Route path='blog/vGHC2021' element={<GHC2021/>} />
+        <Route path='videos' element={<Videos/>} />
+        <Route path='favorites' element={<Favorites/>} />
+        <Route path='fortune-teller' element={<FortuneTeller/>} />
+        <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
+        <Route path='*' element={<PageDoesNotExist/>} />
+    </Routes>
   );
 }

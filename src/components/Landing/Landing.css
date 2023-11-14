@@ -1,0 +1,18 @@
+.landing-container {
+	background-color: var(--lavender-background);
+	min-height: 100vh;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.open24hours{
+    width: 40%;
+}
+
+.entry-link{
+	width: 100%;
+	text-align: center;
+}
