@@ -1,7 +1,7 @@
-
 .landing-container {
 	background: url('../../assets/gifs/galaxy.gif');
 	min-height: 100vh;
+	max-width: 100vw;
 	margin: 0px;
 	display: flex;
 	flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 #fairy1{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 }
@@ -44,11 +44,30 @@
 	left: 0;
 }
 
-#open24{
-	margin-top: 10px;
-	width: 300px;
-}
 
 @media screen and (max-width: 768px) {
-	
+	#fairy1{
+		width: 35%;
+	}
+
+	#angelflowers{
+		width: 35%;
+	}
+
+	#unicorn{
+		width: 35%;
+	}
+
+	#moonfairy{
+		width: 30%;
+	}
+
+	#birdflowers{
+		width: 70%;
+	}
+
+	#entre{
+		width: 40%;
+	}
+
 }

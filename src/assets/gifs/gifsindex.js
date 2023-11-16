@@ -15,12 +15,12 @@ import unicorn from './unicorn.gif';
 import floralglobe from './floralglobe.gif';
 import entre from './entre.gif';
 import angelflowers from './angel_dropping_flowers.gif';
-import birdsflowers from './birds-flowers.gif';
+import birdflowers from './birds-flowers.gif';
 import sillybunny from './sillybunny.gif';
 
 export{
     cowGif,rainbowStars,flyingEnvelope,thumbsUp,catOnPiano,construction,butterfly,pinkPanther,
-    open24,galaxy,door,fairy1,moonfairy,unicorn,floralglobe,entre,angelflowers,birdsflowers,
+    open24,galaxy,door,fairy1,moonfairy,unicorn,floralglobe,entre,angelflowers,birdflowers,
     sillybunny,
 };
 
@@ -111,7 +111,7 @@ export const gifsList = [
         alt: "angel passing out flowers from a bouquet"
     },
     {
-        asset: birdsflowers,
+        asset: birdflowers,
         source: "https://web.archive.org/web/20090731164739/http://geocities.com/FashionAvenue/Salon/7917/SIDEBAR.HTML",
         alt: "blue birds holding up a floral garland"
     },
