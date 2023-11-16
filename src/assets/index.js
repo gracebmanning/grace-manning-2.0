@@ -4,6 +4,7 @@ import frogResult from './images/result12.jpg';
 import researchPoster from './images/UROP-Research-Poster.png';
 import orangeTape from './images/tape.png';
 import rollingHills from './images/rollinghills.jpg';
+import star from './images/star.png';
 
 // albums
 import IsThisIt from './images/albums/isthisit.png';
@@ -63,6 +64,7 @@ export{
     researchPoster,
     orangeTape,
     rollingHills,
+    star,
 
     // ALBUMS
     IsThisIt,

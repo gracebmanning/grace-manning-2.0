@@ -73,6 +73,9 @@ body{
 	background: url('./assets/images/rollinghills.jpg');
 	color: var(--main-text-color);
 	margin: 0px;
+	cursor:
+  		url('assets/images/star.png') 0 0,
+  		auto;
 }
 
 p{
