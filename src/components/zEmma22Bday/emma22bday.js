@@ -1,5 +1,5 @@
 import './emma22bday.css';
-import { happyBirthday, cake, balloons, emmaSlaying, pigEatingCake, cake2, wordleSlay, crosswordSlays, balloonsPoohAndPig } from '../../assets';
+import { happyBirthday, cake, balloons, emmaSlaying, pigEatingCake, cake2, wordleSlay, crosswordSlays, balloonsPoohAndPig } from '../../assets/emma-bday-images/emma-bday-images-index.js';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 

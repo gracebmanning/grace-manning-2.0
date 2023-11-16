@@ -24,12 +24,14 @@ export default function Navbar() {
             <MenuIcon/>
         </button>
         <div className={isNavExpanded ? "navHeader expanded" : "navHeader"}>
-            <img src={cowGif} alt="black and white cow turning its head"/>
+            <a href="/" style={{textDecoration: 'none', margin: '0px', padding: '0px'}}>
+                <img src={cowGif} alt="black and white cow turning its head"/>
+            </a>
             <div className="navHeaderText">
                 <a href="/" style={{textDecoration: 'none'}}>
                     <h1 id="navTitle">graces-portal.net</h1>
+                    <h2 id="navSubtitle">...where dreams come true!</h2>
                 </a>
-                <h2 id="navSubtitle">...where dreams come true!</h2>
             </div>
         </div>
         <div className={isNavExpanded ? "navStars expanded" : "navStars"}><img src={rainbowStars} alt="line of rainbow stars"/></div>

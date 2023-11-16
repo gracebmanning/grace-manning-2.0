@@ -1,6 +1,6 @@
 import { amongTheFish, balboaPier, boatsInSDBay, boatsOnNEmbarcadero, 
     calvaryBaptist, santaMonica, goldenGate, intoTheFog, number9, quietMorning, rowboat, 
-    surfers, windanseaI, windanseaII } from '../../assets';
+    surfers, windanseaI, windanseaII } from '../../assets/images';
 
 export const gallery = [
   santaMonica, amongTheFish, intoTheFog, rowboat, surfers, balboaPier,

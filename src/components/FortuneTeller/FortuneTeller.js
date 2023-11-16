@@ -1,7 +1,7 @@
 import './FortuneTeller.css';
 import fortunesList from './fortunesList';
 import { pinkPanther } from '../../assets/gifs/gifsindex';
-import { orangeTape } from '../../assets';
+import { orangeTape } from '../../assets/images';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 

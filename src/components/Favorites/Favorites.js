@@ -1,7 +1,7 @@
 import './Favorites.css';
 import { IsThisIt, RoomOnFire, FirstImpressionsOfEarth, FuturePresentPast, FetchTheBoltCutters, MmFood, Second, JankyStar,
   PerpetualMotionPeople, TransangelicExodus, LCDSoundsystem, SoundOfSilver, SilentAlarm, Revolver, MNWNW, LadyBird, Parasite,
-  BeauIsAfraid, TheShining, TheTrumanShow, Trainspotting, BlackSwan  } from '../../assets';
+  BeauIsAfraid, TheShining, TheTrumanShow, Trainspotting, BlackSwan  } from '../../assets/images';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 

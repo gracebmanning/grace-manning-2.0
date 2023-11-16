@@ -36,9 +36,6 @@ export default function Sidebar() {
       <p id="lastModified">{lastModified()}</p>
 
       <p className="navSeparator">-------------------------------</p>
-
-      <h3 className="sidebarHeader">my 88x31 collection</h3>
-      <br/>
       <div className="collection">
         {icons}
       </div>

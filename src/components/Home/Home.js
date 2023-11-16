@@ -1,5 +1,5 @@
 import './Home.css';
-import { orangeCow, frogResult } from '../../assets';
+import { orangeCow, frogResult } from '../../assets/images';
 import { graduated } from '../../assets/blog-images/blogCoverImages';
 import { BlogPreviewTile } from '../Blog/BlogHome';
 import Navbar from '../Navbar/Navbar';
