@@ -26,7 +26,9 @@ export default function Navbar() {
         <div className={isNavExpanded ? "navHeader expanded" : "navHeader"}>
             <img src={cowGif} alt="black and white cow turning its head"/>
             <div className="navHeaderText">
-                <h1 id="navTitle">graces-portal.net</h1>
+                <a href="/" style={{textDecoration: 'none'}}>
+                    <h1 id="navTitle">graces-portal.net</h1>
+                </a>
                 <h2 id="navSubtitle">...where dreams come true!</h2>
             </div>
         </div>
@@ -34,7 +36,7 @@ export default function Navbar() {
         <ul className={isNavExpanded ? "navLinks expanded" : "navLinks"}>
             <p><b>personal</b></p>
             <li className="navLink">★
-                <a href="/">home</a>
+                <a href="/home">home</a>
             </li>
             <li className="navLink">★
                 <a href="/about">about</a>

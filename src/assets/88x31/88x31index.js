@@ -8,6 +8,10 @@ import spongebobWebsite from './thespongebobwebsite.gif';
 import noweb3 from './noweb3.gif';
 import sharingiscaring from './sharingiscaring.gif';
 import yesterweb from './yesterweb.png';
+import forever from './4ever.gif';
+import eightyeight from './88x31.gif';
+import eyes from './besteyes3.gif';
+import palestine from './palestine.png';
 
 export const littleGuys = [
     {
@@ -59,5 +63,25 @@ export const littleGuys = [
         asset: yesterweb,
         source: "https://yesterweb.org/",
         alt: "yesterweb; reclaim the net"
+    },
+    {
+        asset: forever,
+        source: "https://cyber.dabamos.de/88x31/",
+        alt: ""
+    },
+    {
+        asset: eightyeight,
+        source: "https://cyber.dabamos.de/88x31/",
+        alt: "88x31"
+    },
+    {
+        asset: eyes,
+        source: "https://cyber.dabamos.de/88x31/",
+        alt: "best viewed with eyes"
+    },
+    {
+        asset: palestine,
+        source: "http://ilovepalestine.com/campaign/",
+        alt: "FREE PALESTINE"
     }
 ]

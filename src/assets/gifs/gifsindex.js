@@ -7,17 +7,21 @@ import construction from './construction.gif';
 import butterfly from './bigButterfly.gif';
 import pinkPanther from './pinkpanther.gif';
 import open24 from './open24.gif';
+import galaxy from './galaxy.gif';
+import door from './door.gif';
+import fairy1 from './fairy1.gif';
+import moonfairy from './moonfairy.gif';
+import unicorn from './unicorn.gif';
+import floralglobe from './floralglobe.gif';
+import entre from './entre.gif';
+import angelflowers from './angel_dropping_flowers.gif';
+import birdsflowers from './birds-flowers.gif';
+import sillybunny from './sillybunny.gif';
 
 export{
-    cowGif,
-    rainbowStars,
-    flyingEnvelope,
-    thumbsUp,
-    catOnPiano,
-    construction,
-    butterfly,
-    pinkPanther,
-    open24
+    cowGif,rainbowStars,flyingEnvelope,thumbsUp,catOnPiano,construction,butterfly,pinkPanther,
+    open24,galaxy,door,fairy1,moonfairy,unicorn,floralglobe,entre,angelflowers,birdsflowers,
+    sillybunny,
 };
 
 export const gifsList = [
@@ -65,5 +69,55 @@ export const gifsList = [
         asset: open24,
         source: "https://web.archive.org/web/20090821231925/http://geocities.com/Vienna/Stage/7955/",
         alt: "neon sign with text saying 'Open 24 Hours'."
+    },
+    {
+        asset: galaxy,
+        source: "https://web.archive.org/web/20091022134635/http://geocities.com/rydiagarden/index.html",
+        alt: "galaxy of stars in space"
+    },
+    {
+        asset: door,
+        source: "https://web.archive.org/web/20090829064304/http://geocities.com/rockhawks/callsigns.html",
+        alt: "wood door opening on view of green hill, blue sky"
+    },
+    {
+        asset: fairy1,
+        source: "https://web.archive.org/web/20091029070556/http://geocities.com/Heartland/Pointe/4138/Kay.html",
+        alt: "blue fairy holding a wand"
+    },
+    {
+        asset: moonfairy,
+        source: "https://web.archive.org/web/20091024204804/http://geocities.com/candynsteve/geobook.html",
+        alt: "fairy sitting on a crescent moon"
+    },
+    {
+        asset: unicorn,
+        source: "https://web.archive.org/web/20091027103542/http://geocities.com/corgiville2/fairyland.html",
+        alt: "a peach-colored unicorn flies in, lands for a moment, then flies away"
+    },
+    {
+        asset: floralglobe,
+        source: "https://web.archive.org/web/20091027011219/http://geocities.com/april31scott/Floralvaseset",
+        alt: "pink globe filled with flowers"
+    },
+    {
+        asset: entre,
+        source: "https://web.archive.org/web/20091026202937/http://us.geocities.com/terapiafloral.geo/",
+        alt: "word 'entre' in script letters"
+    },
+    {
+        asset: angelflowers,
+        source: "https://web.archive.org/web/20091027023929/http://geocities.com/nol59/",
+        alt: "angel passing out flowers from a bouquet"
+    },
+    {
+        asset: birdsflowers,
+        source: "https://web.archive.org/web/20090731164739/http://geocities.com/FashionAvenue/Salon/7917/SIDEBAR.HTML",
+        alt: "blue birds holding up a floral garland"
+    },
+    {
+        asset: sillybunny,
+        source: "https://web.archive.org/web/20091025013136/http://geocities.com/justmecookin/easterpies.html",
+        alt: "a pink bunny shakes its tail"
     },
 ]

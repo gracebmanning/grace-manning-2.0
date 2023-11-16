@@ -1,5 +1,5 @@
 .landing-container {
-	background-color: var(--lavender-background);
+	background: url('../../assets/gifs/galaxy.gif');
 	min-height: 100vh;
 	margin: 0px;
 	display: flex;
@@ -8,11 +8,46 @@
 	align-items: center;
 }
 
-.open24hours{
-    width: 40%;
+.entry-background{
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+	padding: 80px 100px 80px 100px;
+	border-radius: 50%;
 }
 
 .entry-link{
-	width: 100%;
 	text-align: center;
+}
+
+#fairy1{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#angelflowers{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#moonfairy{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#unicorn{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#open24{
+	margin-top: 10px;
+	width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+	
 }
