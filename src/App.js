@@ -13,9 +13,7 @@ import { Routes, Route } from 'react-router-dom';
 
 // blog
 import Graduated from './components/Blog/posts/graduated';
-import GHC2022 from './components/Blog/posts/GHC2022';
-import UCIdaytrips from './components/Blog/posts/UCIdaytrips';
-import GHC2021 from './components/Blog/posts/vGHC2021';
+import Linefont from './components/Blog/posts/linefont';
 
 export default function App() {
   return (
@@ -26,9 +24,7 @@ export default function App() {
         <Route path='photography' element={<Photography/>} />
         <Route path='blog/*' element={<Blog/>} />
         <Route path='blog/graduated' element={<Graduated/>} />
-        <Route path='blog/GHC2022' element={<GHC2022/>} />
-        <Route path='blog/UCIdaytrips' element={<UCIdaytrips/>} />
-        <Route path='blog/vGHC2021' element={<GHC2021/>} />
+        <Route path='blog/linefont' element={<Linefont/>} />
         <Route path='videos' element={<Videos/>} />
         <Route path='favorites' element={<Favorites/>} />
         <Route path='fortune-teller' element={<FortuneTeller/>} />

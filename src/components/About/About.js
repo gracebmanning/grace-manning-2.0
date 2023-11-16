@@ -1,6 +1,5 @@
 import './About.css';
 import { thumbsUp, catOnPiano } from '../../assets/gifs/gifsindex';
-import resume from '../../documents/resume.pdf';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -11,7 +10,7 @@ export default function About() {
       <div className="mainContent">
         <div className="contentBoxCenter">
             <p>
-                hello! I'm Grace. I just recently graduated with a degree in Computer Science from UC Irvine (June 2023).
+                hello! I'm Grace.
                 <br/>
                 pronouns: she/her
                 <br/>
@@ -25,13 +24,8 @@ export default function About() {
                 <br/>
                 <img id="thumbsUpGif" src={thumbsUp} alt="a yellow smiley face emoji wearing sunglasses, next to a thumbs up icon bouncing up and down." />
                 <br/>
-                I am passionate about front-end and full-stack web development, human-centered design, and creating technology that
-                impacts people positively (and isn't boring!). My fields of interest include art, music,
-                fashion, marketing/branding, advertising, environmental studies, and urban planning. 
-                <br/><br/>
-                While making websites is my favorite thing to do, I also have experience working with lots of
-                different coding languages, algorithms, data structures, databases, design tools, and all that
-                good stuff. If you're interested in the nitty-gritty, <b><a href={resume} target="_blank" rel="noreferrer">click here</a> to view my resume.</b>
+                I create websites! See my professional site / portfolio at <a href="https://grace-manning.com/" target="_blank" rel="noreferrer">grace-manning.com</a>.
+                
             </p>
         </div>
         <div className="twoColumnBox">
