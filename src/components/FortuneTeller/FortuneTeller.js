@@ -1,14 +1,13 @@
 import './FortuneTeller.css';
 import fortunesList from './fortunesList';
-import { pinkPanther } from '../../assets/gifs/gifsindex';
 import { orangeTape } from '../../assets/images';
+import { floralglobe } from '../../assets/gifs/gifsindex';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
 function getFortune() {
     var fortune = fortunesList[Math.floor(Math.random() * fortunesList.length)];
     document.getElementById("fortune-text").innerText = fortune;
-    
 }
 
 export default function FortuneTeller(){
@@ -26,8 +25,7 @@ export default function FortuneTeller(){
                     </button>
                     <p id="your-fortune-is">Your fortune is...</p>
                     <p id="fortune-text"></p>
-                    <img id="pinkPanther" src={pinkPanther}
-                        alt="the Pink Panther moving his hands to his chin and then pointing up with his left hand." />
+                    <img id="floral-globe" src={floralglobe} alt="pink globe filled with flowers" />
                 </div>
             </div>
             <Sidebar/>

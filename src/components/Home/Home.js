@@ -1,5 +1,6 @@
 import './Home.css';
 import { orangeCow, frogResult } from '../../assets/images';
+import { pinkPanther } from '../../assets/gifs/gifsindex';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -16,7 +17,10 @@ export default function Home() {
         <div className="contentBoxLeft">
           <h3><b>welcome to my *~*~portal~*~* on the internet.</b></h3>
           Stay awhile! Have fun!
-          <br/><br/>
+          <br/>
+          <img id="pinkPanther" src={pinkPanther}
+            alt="the Pink Panther moving his hands to his chin and then pointing up with his left hand." />
+          <br/>
           <h4>Looking For Answers?</h4>
           <p>
             Check out my <a href="fortune-teller">Fortune Teller</a> that I created in the midst of a 5-hour caffeine-fueled coding session, during which I didn't blink a single time! If that doesn't make me qualified to read into the future, I don't know what does.
