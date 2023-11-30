@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+/* font-family: 'Cute Font', sans-serif; */
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.09);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.music{
+    background-color: black;
+    background: url('../../assets/gifs/galaxy.gif');
+}
+
+#musicHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#musicHeaderText{
+    font-family: 'Cute Font', sans-serif;
+    color: white;
+    font-size: 130px;
+    line-height: 0.75;
+    margin-bottom: 15px;
+}
+
+.musicHeaderLetter{
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.musicHeaderLetter:hover{
+    color: var(--orange-accent);
+    transition: 0.2s ease-out;
+}
+
+#walkman{
+    width: 50%;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#cdSection{
+    min-height: 100vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cdTile{
+    width: 95%;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cdTileImage{
+    width: 45%;
+    height: 45%;
+    transform: scale(1.0);
+    transition: 0.2s ease-in;
+}
+
+.cdTileImage:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-out;
+}
+
+.cdTileModal{
+    visibility: hidden;
+    background-color: whitesmoke;
+    width: 45%;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.25rem hsl(0 0% 0% / 10%);
+}
+
+.cdTileTopRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cdTileTitle{
+    font-size: 24px;
+}
+
+.cdTileCloseButton{
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: var(--main-text-color);
+}
+
+.cdTileCloseButton:hover{
+    cursor: pointer;
+}
+
+.cdTileStickerSource{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.cdTileTracklist{
+    padding: 2px;
+    margin-top: 5px;
+    list-style-type: none;
+    border: 2px solid pink;
+}
+
+@media (max-width: 1100px){
+    #musicHeaderText{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #musicHeaderText{
+        font-size: 50px;
+    }
+
+    #walkman{
+        width: 80%;
+    }
+
+    .cdTileImage{
+        width: 100%;
+    }
+}

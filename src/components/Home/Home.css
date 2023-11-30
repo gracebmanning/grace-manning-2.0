@@ -1,9 +1,18 @@
 #hiImGrace{
 	font-family: "Royal Acidbath Open";
-    color: #E29D00;
-    font-size: 70px;
+    font-size: 72px;
 	font-weight: bold;
 	margin: 0px;
+}
+
+.mainHeaderLetter{
+	color: var(--main-text-color);
+    transition: 0.2s ease-in;
+}
+
+.mainHeaderLetter:hover{
+	color: var(--orange-accent);
+    transition: 0.2s ease-out;
 }
 
 #cow{

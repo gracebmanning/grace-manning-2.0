@@ -3,6 +3,7 @@ import { orangeCow, frogResult } from '../../assets/images';
 import { pinkPanther } from '../../assets/gifs/gifsindex';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
+import { wrapIndividualLettersNumbered } from '../utilityFunctions';
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       <Navbar/>
       <div className="mainContent">
         <div className="contentBoxCenter">
-            <p id="hiImGrace">Hi, I'm Grace!</p>
+            <p id="hiImGrace">
+              {wrapIndividualLettersNumbered("Hi, I'm Grace!", "mainHeaderLetter")}
+            </p>
             <img id="cow" src={orangeCow} alt="orange cow"/>
             <p>(I'm not a cow...I'm a person.)</p>
         </div>

@@ -48,6 +48,11 @@ import surfers from './photography/Surfers at Dusk.jpg';
 import windanseaI from './photography/Windansea Sunset I.jpg';
 import windanseaII from './photography/Windansea Sunset II.jpg';
 
+//cds
+import walkman from './cds/walkman.png';
+import blankCD from './cds/cd-blank.png';
+import soundtrack1 from './cds/soundtrack-1.png';
+
 // IMAGES
 export{
     orangeCow,
@@ -98,5 +103,10 @@ export{
     rowboat,
     surfers,
     windanseaI,
-    windanseaII
+    windanseaII,
+
+    // CDs
+    walkman, // source: https://retrospekt.com/products/sony-walkman-d-cj500-blue-portable-cd-player-b-grade
+    blankCD,
+    soundtrack1
 };

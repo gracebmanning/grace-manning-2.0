@@ -58,6 +58,9 @@ export default function Navbar() {
             <NavSeparator/>
             <p><b>fun stuff</b></p>
             <li className="navLink">★
+                <a href="/music">music</a>
+            </li>
+            <li className="navLink">★
                 <a href="/fortune-teller">fortune teller</a>
             </li>
             <NavSeparator/>
