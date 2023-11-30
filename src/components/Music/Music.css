@@ -16,6 +16,7 @@
 .music{
     background-color: black;
     background: url('../../assets/gifs/galaxy.gif');
+    max-width: 100vw;
 }
 
 #musicHeader{
@@ -142,7 +143,16 @@
         width: 80%;
     }
 
+    .cdTile{
+        flex-direction: column;
+        width: 100%;
+    }
+
     .cdTileImage{
+        width: 100%;
+    }
+
+    .cdTileModal{
         width: 100%;
     }
 }
