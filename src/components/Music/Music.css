@@ -20,12 +20,11 @@
 }
 
 #musicHeader{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #musicHeaderText{
@@ -47,7 +46,7 @@
 }
 
 #walkman{
-    width: 50%;
+    width: 120px;
     animation-name: grow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -136,11 +135,11 @@
 
 @media only screen and (max-width: 768px) {
     #musicHeaderText{
-        font-size: 50px;
+        font-size: 70px;
     }
 
     #walkman{
-        width: 80%;
+        width: 100px;
     }
 
     .cdTile{

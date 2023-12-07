@@ -78,69 +78,52 @@ const playlists = [
     },
 ];
 
-function openModal(id){
+function changeDisplay(id){
     const elem = document.getElementById(id);
-    elem.style.visibility = "visible";
-};
-
-function closeModal(id){
-    const elem = document.getElementById(id);
-    elem.style.visibility = "hidden";
-};
+    let vis = elem.style.visibility;
+    if(vis === "visible"){
+        elem.style.visibility = "hidden";
+    } else{
+        elem.style.visibility = "visible";
+    }
+}
 
 export const cdList = playlists.map((cd, index) => 
     {
+        const modal = (
+            <div className="cdTileModal" id={`modal${index}`}>
+                <div className="cdTileTopRow">
+                    <p className="cdTileTitle">{cd.title}</p>
+                    <button className="cdTileCloseButton" onClick={() => changeDisplay(`modal${index}`)}>close</button>
+                </div>
+                <a href={cd.link} target="_blank" rel="noreferrer">open on Spotify</a>
+                <br/><br/>
+                <p>tracklist:</p>
+                <ul className="cdTileTracklist">
+                    {cd.tracks.map((track, index) => <li key={index}>{track}</li>)}
+                </ul>
+                <br/>
+                <div className="cdTileStickerSources">
+                    <p>sticker sources:</p>
+                    {cd.stickerSources.map((source, index) => 
+                        <a className="cdTileStickerSource" href={source.link} key={index} target="_blank" rel="noreferrer">{source.name}</a>
+                    )}
+                </div>
+            </div>
+        );
         if(index%2 === 0){
             return (
                 <div className="cdTile" key={index}>
-                    <img className="cdTileImage" src={cd.image} onClick={() => openModal(`modal${index}`)} alt="a silver-colored CD covered with a collage of stickers" />
-                    <div className="cdTileModal" id={`modal${index}`}>
-                        <div className="cdTileTopRow">
-                            <p className="cdTileTitle">{cd.title}</p>
-                            <button className="cdTileCloseButton" onClick={() => closeModal(`modal${index}`)}>close</button>
-                        </div>
-                        <a href={cd.link} target="_blank" rel="noreferrer">open on Spotify</a>
-                        <br/><br/>
-                        <p>tracklist:</p>
-                        <ul className="cdTileTracklist">
-                            {cd.tracks.map((track, index) => <li key={index}>{track}</li>)}
-                        </ul>
-                        <br/>
-                        <div className="cdTileStickerSources">
-                            <p>sticker sources:</p>
-                            {cd.stickerSources.map((source, index) => 
-                                <a className="cdTileStickerSource" href={source.link} key={index} target="_blank" rel="noreferrer">{source.name}</a>
-                            )}
-                        </div>
-                    </div>
+                    <img className="cdTileImage" src={cd.image} onClick={() => changeDisplay(`modal${index}`)} alt="a silver-colored CD covered with a collage of stickers" />
+                    {modal}
                 </div>
             );
         }
         else{
             return(
                 <div className="cdTile" key={index}>
-                    <div className="cdTileModal" id={`modal${index}`}>
-                        <div className="cdTileTopRow">
-                            <p className="cdTileTitle">{cd.title}</p>
-                            <button className="cdTileCloseButton" onClick={() => closeModal(`modal${index}`)}>close</button>
-                        </div>
-                        {/* 
-                        <a href={cd.link} target="_blank" rel="noreferrer">open on Spotify</a>
-                        <br/><br/>
-                        <p>tracklist:</p>
-                        <ul className="cdTileTracklist">
-                            {cd.tracks.map((track, index) => <li key={index}>{track}</li>)}
-                        </ul>
-                        <br/>
-                        <div className="cdTileStickerSources">
-                        <p>sticker sources:</p>
-                            {cd.stickerSources.map((source, index) => 
-                                <a className="cdTileStickerSource" href={source.link} key={index} target="_blank" rel="noreferrer">{source.name}</a>
-                            )}
-                        </div>
-                        */}
-                    </div>
-                    <img className="cdTileImage" src={cd.image} onClick={() => openModal(`modal${index}`)} alt="a silver-colored CD covered with a collage of stickers" />
+                    {modal}
+                    <img className="cdTileImage" src={cd.image} onClick={() => changeDisplay(`modal${index}`)} alt="a silver-colored CD covered with a collage of stickers" />
                 </div>
             );
         }

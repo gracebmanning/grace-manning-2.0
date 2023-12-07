@@ -1,7 +1,7 @@
 import './Music.css';
 import { walkman } from '../../assets/images';
 import { cdList } from './playlists';
-import { wrapIndividualLetters, clickScroll } from '../utilityFunctions';
+import { wrapIndividualLetters } from '../utilityFunctions';
 import Navbar from '../Navbar/Navbar';
 
 export default function Music() {
@@ -13,7 +13,7 @@ export default function Music() {
           <div id="musicHeaderText">
             {wrapIndividualLetters("Grace's Music Catalog", "musicHeaderLetter")}
           </div>
-          <img id="walkman" src={walkman} alt="blue Sony Walkman with headphones attached" onClick={() => clickScroll('cdSection')} />
+          <img id="walkman" src={walkman} alt="blue Sony Walkman with headphones attached" />
         </div>
         <div id="cdSection">
           {cdList}

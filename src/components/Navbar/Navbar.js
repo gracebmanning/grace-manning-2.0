@@ -47,7 +47,7 @@ export default function Navbar() {
                 <a href="/photography">photography</a>
             </li>
             <li className="navLink">★
-                <a href="/blog">blog</a>
+                <a href="https://blog.graces-portal.net" target="_blank" rel="noreferrer">blog</a>
             </li>
             <li className="navLink">★
                 <a href="/videos">videos</a>
