@@ -99,7 +99,7 @@ const playlists = [
                 link: "https://www.stars-music.com/gibson-modern-les-paul-classic-2019-trans-cherry_158249.html"
             },
             {
-                name: "neo bar sign",
+                name: "neon bar sign",
                 link: "https://www.etsy.com/listing/1048351933/custom-neon-sign-for-coffee-shop"
             },
             {
