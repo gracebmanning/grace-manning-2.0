@@ -52,6 +52,13 @@
     animation-iteration-count: infinite;
 }
 
+#musicTagline{
+    font-family: 'Cute Font', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
 #cdSection{
     min-height: 100vh;
     padding-top: 5px;
@@ -67,7 +74,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cdTileImage{
@@ -84,8 +91,8 @@
 
 .cdTileModal{
     visibility: hidden;
-    background-color: whitesmoke;
-    width: 45%;
+    background-color: #FFF2D4;
+    width: 40%;
     height: fit-content;
     padding: 5px;
     margin: 5px;
@@ -115,6 +122,10 @@
     cursor: pointer;
 }
 
+.cdTileStickerSourceHeader{
+    font-size: 16px;
+}
+
 .cdTileStickerSource{
     font-size: 12px;
     margin-right: 5px;
@@ -124,7 +135,8 @@
     padding: 2px;
     margin-top: 5px;
     list-style-type: none;
-    border: 2px solid pink;
+    border: 2px solid var(--orange-accent);
+    border-radius: 10px;
 }
 
 @media (max-width: 1100px){

@@ -51,7 +51,9 @@ import windanseaII from './photography/Windansea Sunset II.jpg';
 //cds
 import walkman from './cds/walkman.png';
 import blankCD from './cds/cd-blank.png';
-import soundtrack1 from './cds/soundtrack-1.png';
+import soundtrack1 from './cds/soundtrack1.png';
+import soundtrack2 from './cds/soundtrack2.png';
+import soundtrack3 from './cds/soundtrack3.png';
 
 // IMAGES
 export{
@@ -108,5 +110,7 @@ export{
     // CDs
     walkman, // source: https://retrospekt.com/products/sony-walkman-d-cj500-blue-portable-cd-player-b-grade
     blankCD,
-    soundtrack1
+    soundtrack1,
+    soundtrack2,
+    soundtrack3
 };

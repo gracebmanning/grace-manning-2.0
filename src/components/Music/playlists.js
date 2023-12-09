@@ -1,8 +1,8 @@
-import { blankCD, soundtrack1 } from "../../assets/images"
+import { soundtrack1, soundtrack2, soundtrack3 } from "../../assets/images"
 const playlists = [
     {
         title: "soundtrack for an indie film (#1)",
-        tracks: ["I Saw The End - Ardency", "Vitamin C - CAN", "Surrender - Suicide", "Hospital - The Modern Lovers", "and more..."],
+        tracks: ['"I Saw The End" - Ardency', '"Vitamin C" - CAN', '"Surrender" - Suicide', '"Hospital" - The Modern Lovers', "and more..."],
         link: "https://open.spotify.com/playlist/3Yj4KkY01ypfqY28idxBEf?si=30248601fd144276",
         image: soundtrack1,
         stickerSources: [
@@ -65,14 +65,46 @@ const playlists = [
         ]
     },
     {
-        title: "more playlists coming soon!!",
-        tracks: [],
-        link: "",
-        image: blankCD,
+        title: "soundtrack II",
+        tracks: ['"Twin Tales" - LUCHS', '"Her Eyes the Stars" - LUCHS', '"Fallss" - Bayonne', '"Consonance" - Golden Retriever', "and more..."],
+        link: "https://open.spotify.com/playlist/62ecsvRzGoziOsi38RtxjJ?si=0f1a8b69dda64f59",
+        image: soundtrack2,
         stickerSources: [
             {
                 name: "CD blank",
                 link: "https://pngimg.com/image/102166"
+            },
+            {
+                name: "moon",
+                link: "https://www.flickr.com/photos/still_loony/21855331040"
+            }
+        ]
+    },
+    {
+        title: "soundtrack 3!",
+        tracks: ['"Rebel Girl" - Bikini Kill', '"Labour Of Love" - Hue and Cry', '"Restless Year" - Ezra Furman', '"This Is the Day" - The The', 'and more...'],
+        link: "https://open.spotify.com/playlist/7t9N2Jm4R1pNqkuJS8iBbr?si=219b841fa5004c2f",
+        image: soundtrack3,
+        stickerSources: [
+            {
+                name: "CD blank",
+                link: "https://pngimg.com/image/102166"
+            },
+            {
+                name: "desert road",
+                link: "https://www.dangerous-business.com/california-desert-road-trip-itinerary"
+            },
+            {
+                name: "Gibson Les Paul guitar",
+                link: "https://www.stars-music.com/gibson-modern-les-paul-classic-2019-trans-cherry_158249.html"
+            },
+            {
+                name: "neo bar sign",
+                link: "https://www.etsy.com/listing/1048351933/custom-neon-sign-for-coffee-shop"
+            },
+            {
+                name: "cutout letters",
+                link: "https://www.vecteezy.com/vector-art/16181968-vector-ransom-font-letters-cut-outs-from-newspaper-or-magazine-character-set-criminal-alphabet-ransom-colorful-text"
             }
         ]
     },
@@ -104,14 +136,14 @@ export const cdList = playlists.map((cd, index) =>
                 </ul>
                 <br/>
                 <div className="cdTileStickerSources">
-                    <p>sticker sources:</p>
+                    <p className="cdTileStickerSourceHeader">image sources:</p>
                     {cd.stickerSources.map((source, index) => 
                         <a className="cdTileStickerSource" href={source.link} key={index} target="_blank" rel="noreferrer">{source.name}</a>
                     )}
                 </div>
             </div>
         );
-        if(index%2 === 0){
+        if(index%2 === 0 || window.screen.width < 768){
             return (
                 <div className="cdTile" key={index}>
                     <img className="cdTileImage" src={cd.image} onClick={() => changeDisplay(`modal${index}`)} alt="a silver-colored CD covered with a collage of stickers" />

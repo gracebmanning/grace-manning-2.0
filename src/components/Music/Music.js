@@ -15,6 +15,7 @@ export default function Music() {
           </div>
           <img id="walkman" src={walkman} alt="blue Sony Walkman with headphones attached" />
         </div>
+        <p id="musicTagline">Click the CDs to view playlists. Check back for more later!</p>
         <div id="cdSection">
           {cdList}
         </div>
@@ -22,26 +23,3 @@ export default function Music() {
     </div>
   );
 }
-/*
-<span className="musicHeaderLetter">G</span>
-            <span className="musicHeaderLetter">r</span>
-            <span className="musicHeaderLetter">a</span>
-            <span className="musicHeaderLetter">c</span>
-            <span className="musicHeaderLetter">e</span>
-            <span className="musicHeaderLetter">'</span>
-            <span className="musicHeaderLetter">s</span>
-            <span className="musicHeaderLetter"> </span>
-            <span className="musicHeaderLetter">M</span>
-            <span className="musicHeaderLetter">u</span>
-            <span className="musicHeaderLetter">s</span>
-            <span className="musicHeaderLetter">i</span>
-            <span className="musicHeaderLetter">c</span>
-            <span className="musicHeaderLetter"> </span>
-            <span className="musicHeaderLetter">C</span>
-            <span className="musicHeaderLetter">a</span>
-            <span className="musicHeaderLetter">t</span>
-            <span className="musicHeaderLetter">a</span>
-            <span className="musicHeaderLetter">l</span>
-            <span className="musicHeaderLetter">o</span>
-            <span className="musicHeaderLetter">g</span>
-            */
