@@ -63,6 +63,9 @@ export default function Navbar() {
             <li className="navLink">★
                 <a href="/fortune-teller">fortune teller</a>
             </li>
+            <li className="navLink">★
+                <a href="/internet-explorer">internet explorer</a>
+            </li>
             <NavSeparator/>
             <p><b>software projects</b></p>
             <li className="navLink">★

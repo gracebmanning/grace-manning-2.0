@@ -1,3 +1,9 @@
+#introBox{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 #hiImGrace{
 	font-family: "Royal Acidbath Open";
     font-size: 72px;
@@ -13,6 +19,11 @@
 .mainHeaderLetter:hover{
 	color: var(--orange-accent);
     transition: 0.2s ease-out;
+}
+
+#profilePic{
+	width: 20%;
+	margin-right: 30px;
 }
 
 #cow{

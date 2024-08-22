@@ -20,7 +20,7 @@ export default function Sidebar() {
       <h3 className="sidebarHeader">links</h3>
       <a href="https://github.com/gracebmanning" target="_blank" rel="noreferrer">github</a>
       <br/>
-      <a href="https://grace-manning.com/" target="_blank" rel="noreferrer">my other site</a>
+      <a href="https://grace-manning.com/" target="_blank" rel="noreferrer">professional me</a>
 
       <br/><br/>
       <h3 className="sidebarHeader">contact</h3>

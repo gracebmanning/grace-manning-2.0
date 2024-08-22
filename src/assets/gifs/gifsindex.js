@@ -18,10 +18,21 @@ import angelflowers from './angel_dropping_flowers.gif';
 import birdflowers from './birds-flowers.gif';
 import sillybunny from './sillybunny.gif';
 
+// PLANETS
+import sun from './planets/sun.gif';
+import mercury from './planets/mercury.gif';
+import venus from './planets/venus.gif';
+import earth from './planets/earth.gif';
+import mars from './planets/mars.gif';
+
+
 export{
     cowGif,rainbowStars,flyingEnvelope,thumbsUp,catOnPiano,construction,butterfly,pinkPanther,
     open24,galaxy,door,fairy1,moonfairy,unicorn,floralglobe,entre,angelflowers,birdflowers,
     sillybunny,
+
+    // planets
+    sun, mercury, venus, earth, mars
 };
 
 export const gifsList = [
@@ -120,4 +131,30 @@ export const gifsList = [
         source: "https://web.archive.org/web/20091025013136/http://geocities.com/justmecookin/easterpies.html",
         alt: "a pink bunny shakes its tail"
     },
+    // sun, mercury, venus, earth, mars, jupiter, saturn, uranus, neptune
+    {
+        asset: sun,
+        source: "https://web.archive.org/web/20090831045841/http://geocities.com/TheTropics/Resort/8331/info/update.html",
+        alt: "yellow sun with pulsing rays"
+    },
+    {
+        asset: mercury,
+        source: "https://web.archive.org/web/20091022221806/http://geocities.com/Athens/Academy/9664/whoami.htm",
+        alt: "rotating Mercury planet"
+    },
+    {
+        asset: venus,
+        source: "https://web.archive.org/web/20090729232223/http://geocities.com/Area51/Labyrinth/4504/index.html",
+        alt: "rotating Venus planet"
+    },
+    {
+        asset: earth,
+        source: "https://web.archive.org/web/20090901171159/http://geocities.com/mistercis000/?curDrag.zIndex:curDrag.style.zIndex",
+        alt: "rotating Earth planet"
+    },
+    {
+        asset: mars,
+        source: "https://web.archive.org/web/20090729003948/http://geocities.com/semideity/",
+        alt: "rotating Mars planet"
+    }
 ]

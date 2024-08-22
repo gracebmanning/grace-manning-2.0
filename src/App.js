@@ -8,6 +8,7 @@ import Videos from './components/Videos/Videos';
 import Favorites from './components/Favorites/Favorites';
 import Music from './components/Music/Music';
 import FortuneTeller from './components/FortuneTeller/FortuneTeller';
+import InternetExplorer from './components/InternetExplorer/InternetExplorer';
 import Emma22Bday from './components/zEmma22Bday/emma22bday';
 import { Routes, Route } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ export default function App() {
         <Route path='favorites' element={<Favorites/>} />
         <Route path='music' element={<Music/>} />
         <Route path='fortune-teller' element={<FortuneTeller/>} />
+        <Route path='internet-explorer' element={<InternetExplorer/>} />
         <Route path='happy22birthdayEmma' element={<Emma22Bday/>} />
         <Route path='*' element={<PageDoesNotExist/>} />
     </Routes>

@@ -5,6 +5,7 @@ import researchPoster from './UROP-Research-Poster.png';
 import orangeTape from './tape.png';
 import rollingHills from './rollinghills.jpg';
 import star from './star.png';
+import profilePic from './pointing.png';
 
 // albums
 import IsThisIt from './albums/isthisit.png';
@@ -63,6 +64,7 @@ export{
     orangeTape,
     rollingHills,
     star,
+    profilePic,
 
     // ALBUMS
     IsThisIt,
